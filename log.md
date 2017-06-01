@@ -50,6 +50,21 @@
 -   [Remove Value From Array](https://gist.github.com/devNoiseConsulting/8f149ed1a6ac0f585df7bbe97b362f8a)
 -   [Roguelike Dungeon Crawler Repo](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler)
 
+### Day 2: May 31, 2017
+
+**Today's Progress:** Getting a rough initialization of the dungeon. Daily programming challenges from the PhillyDev Slack.
+
+
+**Thoughts:** Trying to stub out a basic dungeon. Run into a problem with Array().fill() when creating a 2D array. The fill only makes one array so any changes to a cell show up in every row.
+Also React wants me to start using ES6 Classes to define my components. Not having much luck with that and back out those changes for todays commit.
+
+Gave the daily programming challenge the usual old school and ES6 solutions. I wasn't able to really cut the code down to much with the Array methods. Attempts at just using Array methods seemed to head in the direction of O(n^2) so I stop going down that path.
+
+**Link to work:**
+
+-   [Longest Sorted SubArray](https://gist.github.com/devNoiseConsulting/c3864a7d26604596251928d34f053a89)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/80583f3f6da5c3d643a70750864a4318fac5ad5f)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
