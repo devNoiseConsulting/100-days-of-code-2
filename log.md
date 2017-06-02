@@ -65,6 +65,20 @@ Gave the daily programming challenge the usual old school and ES6 solutions. I w
 -   [Longest Sorted SubArray](https://gist.github.com/devNoiseConsulting/c3864a7d26604596251928d34f053a89)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/80583f3f6da5c3d643a70750864a4318fac5ad5f)
 
+### Day 3: Jun 1, 2017
+
+**Today's Progress:** Roguelike dungeon has movement and some improved rendering. Daily programming challenges from the PhillyDev Slack.
+
+
+**Thoughts:** Felt like the rendering was taking a bit since the initial code had the 10,000 dungeon cells being rendered. Move to having the dungeon row display all the cells, brings us down to 100 components to render. Put in a keypress handler to determine movement and update the dungeon. Once that seemed to work I added a check to make sure the cell was empty.
+
+Daily programming challenge went well for the first solution. Had a couple iterations to get it right. Had to make checks against both the pattern and the string. Tried to get fancy and have my code generate regex expressions based on the pattern. It worked in general, but failed one of the test cases. Ran out of time to work on it, but the solution seems to be added another check that compares the length of the unique elements in the two arrays.
+
+**Link to work:**
+
+-   [String Pattern Check Gist](https://gist.github.com/devNoiseConsulting/e5f148d2e0e06c42f6c68cae48e5a41d)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/e9209126609f58d8de63fd28c4191a027ca60fa6)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
