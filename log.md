@@ -79,6 +79,20 @@ Daily programming challenge went well for the first solution. Had a couple itera
 -   [String Pattern Check Gist](https://gist.github.com/devNoiseConsulting/e5f148d2e0e06c42f6c68cae48e5a41d)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/e9209126609f58d8de63fd28c4191a027ca60fa6)
 
+### Day 4: Jun 2, 2017
+
+**Today's Progress:** Roguelike dungeon has treasure and monsters. Daily programming challenges from the PhillyDev Slack.
+
+
+**Thoughts:** Added a some CSS so the dungeon's font size would be smaller to fit more onto the screen, Refactored the dungeon initialization to break out the parts into their own function to help keep the code clear. Also changed the values in the cells from being a character to being an object. This allows me to have a better handle on the state of things in the dungeon.
+
+Only went with one solution for the Daily programming challenge. Made use of Array.reduce() to store the duplicates. Array.reduce() is getting to be a familiar tool. The Array.indexOf() was the one had me using a feature rarely used by me. Passed in an offset argument so the Array.indexOf() would ignore the first instance of the occurrence.
+
+**Link to work:**
+
+-   [Find And Return Duplicates Gist](https://gist.github.com/devNoiseConsulting/357992e0666fff50aca21d0a08a4b283)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/5c9b73d0eb5558635840468e211c880a7db780b6)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
