@@ -54,7 +54,6 @@
 
 **Today's Progress:** Getting a rough initialization of the dungeon. Daily programming challenges from the PhillyDev Slack.
 
-
 **Thoughts:** Trying to stub out a basic dungeon. Run into a problem with Array().fill() when creating a 2D array. The fill only makes one array so any changes to a cell show up in every row.
 Also React wants me to start using ES6 Classes to define my components. Not having much luck with that and back out those changes for todays commit.
 
@@ -69,7 +68,6 @@ Gave the daily programming challenge the usual old school and ES6 solutions. I w
 
 **Today's Progress:** Roguelike dungeon has movement and some improved rendering. Daily programming challenges from the PhillyDev Slack.
 
-
 **Thoughts:** Felt like the rendering was taking a bit since the initial code had the 10,000 dungeon cells being rendered. Move to having the dungeon row display all the cells, brings us down to 100 components to render. Put in a keypress handler to determine movement and update the dungeon. Once that seemed to work I added a check to make sure the cell was empty.
 
 Daily programming challenge went well for the first solution. Had a couple iterations to get it right. Had to make checks against both the pattern and the string. Tried to get fancy and have my code generate regex expressions based on the pattern. It worked in general, but failed one of the test cases. Ran out of time to work on it, but the solution seems to be added another check that compares the length of the unique elements in the two arrays.
@@ -83,7 +81,6 @@ Daily programming challenge went well for the first solution. Had a couple itera
 
 **Today's Progress:** Roguelike dungeon has treasure and monsters. Daily programming challenges from the PhillyDev Slack.
 
-
 **Thoughts:** Added a some CSS so the dungeon's font size would be smaller to fit more onto the screen, Refactored the dungeon initialization to break out the parts into their own function to help keep the code clear. Also changed the values in the cells from being a character to being an object. This allows me to have a better handle on the state of things in the dungeon.
 
 Only went with one solution for the Daily programming challenge. Made use of Array.reduce() to store the duplicates. Array.reduce() is getting to be a familiar tool. The Array.indexOf() was the one had me using a feature rarely used by me. Passed in an offset argument so the Array.indexOf() would ignore the first instance of the occurrence.
@@ -92,6 +89,16 @@ Only went with one solution for the Daily programming challenge. Made use of Arr
 
 -   [Find And Return Duplicates Gist](https://gist.github.com/devNoiseConsulting/357992e0666fff50aca21d0a08a4b283)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/5c9b73d0eb5558635840468e211c880a7db780b6)
+
+### Day 5: Jun 3, 2017
+
+**Today's Progress:** Roguelike dungeon has treasure collection and monster fighting.
+
+**Thoughts:** Making progress. Added the code to collect the treasure and add health back to the player. Player will now attack monsters and take their weapon when defeated. Used react-bootstrap to clean up the UI. Also added a function to determine if a dungeon cell was visible from the player's current position.
+
+**Link to work:**
+
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/67e1b6722d20e5fe7592bbd5cf2a738840d2b09f)
 
 <!--
 
