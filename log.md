@@ -100,6 +100,16 @@ Only went with one solution for the Daily programming challenge. Made use of Arr
 
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/67e1b6722d20e5fe7592bbd5cf2a738840d2b09f)
 
+### Day 6: Jun 4, 2017
+
+**Today's Progress:** Roguelike dungeon has multiple levels now.
+
+**Thoughts:** Reworking the code to handle the generation of a new level when the player enters the ladder cell. Getting an off by one bug for the dungeon level in the state object. Must be a race condition as my code is executing before the state is updated. Updating the user's level doesn't seem to be working, will look into that tomorrow.
+
+**Link to work:**
+
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/68226d1110f882de16faef84e4d6ba588b58b1af)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
