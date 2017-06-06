@@ -110,6 +110,19 @@ Only went with one solution for the Daily programming challenge. Made use of Arr
 
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/68226d1110f882de16faef84e4d6ba588b58b1af)
 
+### Day 7: Jun 5, 2017
+
+**Today's Progress:** Fixing game logic for Roguelike dungeon. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Fix Level bug because I was doing an exact comparison when I should have been doing a greater than comparison. Added code to make sure the player's health doesn’t go above 100. Added a dungeonWon state that will indicate the player has won and display all of the dungeon level.
+
+I passed all the test cases for the daily programmig challenge, but I think I missing some use cases. I believe my code is only returning results for a subsequence of 3. I should have handled cases that are larger.
+
+**Link to work:**
+
+-   [Find Number Of Arithmetic Sequence Gist](https://gist.github.com/devNoiseConsulting/2151de3a83a3b6d873c70c7eec98e3d1)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/fcf7ac0ecc5522020031003280e81b109c4c54b8)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
