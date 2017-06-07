@@ -116,12 +116,25 @@ Only went with one solution for the Daily programming challenge. Made use of Arr
 
 **Thoughts:** Fix Level bug because I was doing an exact comparison when I should have been doing a greater than comparison. Added code to make sure the player's health doesn’t go above 100. Added a dungeonWon state that will indicate the player has won and display all of the dungeon level.
 
-I passed all the test cases for the daily programmig challenge, but I think I missing some use cases. I believe my code is only returning results for a subsequence of 3. I should have handled cases that are larger.
+I passed all the test cases for the daily programming challenge, but I think I missing some use cases. I believe my code is only returning results for a subsequence of 3. I should have handled cases that are larger.
 
 **Link to work:**
 
 -   [Find Number Of Arithmetic Sequence Gist](https://gist.github.com/devNoiseConsulting/2151de3a83a3b6d873c70c7eec98e3d1)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/fcf7ac0ecc5522020031003280e81b109c4c54b8)
+
+### Day 8: Jun 6, 2017
+
+**Today's Progress:** Fixing game state for Roguelike dungeon. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Working on getting the Reset/New Game and Continue buttons to work. Booleans are not strings and that screwed up disabling the Continue button. The React component's state is not your friend when you're trying to it to calculate based off of intermediate values. I ended up reworking how the dungeon is initialized so that state is accessed as little as possible. This means I refactored a bit of the hacks I put in and instead just passed in what I considered to be the current state for the sub functions.
+
+I love working with array. So I made everything in the daily programming challenge into an array to solve the problem. This allowed me to make the prefixes pretty easy. I'm sure that the solution would be pretty much the same if I had used String.substring().
+
+**Link to work:**
+
+-   [Find Most Common Prefixes Gist](https://gist.github.com/devNoiseConsulting/f6e0554fafebe50275c7423fdc1c3f76)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/bc346c0b121b33faf4dca43cbe322f88e6369961)
 
 <!--
 
