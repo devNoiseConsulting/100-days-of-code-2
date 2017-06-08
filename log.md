@@ -136,6 +136,19 @@ I love working with array. So I made everything in the daily programming challen
 -   [Find Most Common Prefixes Gist](https://gist.github.com/devNoiseConsulting/f6e0554fafebe50275c7423fdc1c3f76)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/bc346c0b121b33faf4dca43cbe322f88e6369961)
 
+### Day 9: Jun 7, 2017
+
+**Today's Progress:** Figuring out my React render problem for the Roguelike dungeon. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** The UI for my Rouguelike game is still text based. Though I have finally figured out how to get my array rendered. Previously, React wouldn't like the code I put into the render function or it turned the code into a string and wasn't valid HTML. Not sure why I thought I needed to use Array.join() to get the JSX/HTML.
+
+I cribbed my daily programming solution from the Game of Life project I did for freeCodeCamp. Since I only had to write the function to calculate the cell life given the parameters. This allowed me to simplify how I got the total number of living neighbors. I did this using Array.reduce, but could have done it using Array.filter.
+
+**Link to work:**
+
+-   [Conway’s Game of Life: Calculate Cell Life Gist](https://gist.github.com/devNoiseConsulting/6350669c8de298ea04a27e51c06b09b8)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/cd0cf6dd2fbba8c50bd0d0c08f356c0723946cc7)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
