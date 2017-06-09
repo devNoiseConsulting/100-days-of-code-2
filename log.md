@@ -149,6 +149,19 @@ I cribbed my daily programming solution from the Game of Life project I did for 
 -   [Conway’s Game of Life: Calculate Cell Life Gist](https://gist.github.com/devNoiseConsulting/6350669c8de298ea04a27e51c06b09b8)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/cd0cf6dd2fbba8c50bd0d0c08f356c0723946cc7)
 
+### Day 10: Jun 8, 2017
+
+**Today's Progress:** Gave the Roguelike dungeon a graphical dungeon. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Probably not using as much Sass as I should be, but keeping the UI pretty basic. Almost as much play testing as coding tonight. Decided that I need to be able to distinguish between the regular monsters and the boss monster. Mostly just minor changes to the code to get the pixel cells to work, and then handling the boss display. 
+
+The daily programming challenge was pretty easy today. Made use of the ES6 spread operator because of how the problem was worded. The function was to take an unlimited number of parameters. The split was that the first parameter was the offset and the other parameters could just go into an array. Made a revised solution after seeing another solution. It made me realize that a simple change would allow me to access the value I needed with the use of String.substring().
+
+**Link to work:**
+
+-   [Find Nth Digit of Sequence Gist](https://gist.github.com/devNoiseConsulting/64c72989c543364099f66a7e7fd16efd)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
