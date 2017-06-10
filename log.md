@@ -153,14 +153,27 @@ I cribbed my daily programming solution from the Game of Life project I did for 
 
 **Today's Progress:** Gave the Roguelike dungeon a graphical dungeon. Daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** Probably not using as much Sass as I should be, but keeping the UI pretty basic. Almost as much play testing as coding tonight. Decided that I need to be able to distinguish between the regular monsters and the boss monster. Mostly just minor changes to the code to get the pixel cells to work, and then handling the boss display. 
+**Thoughts:** Probably not using as much Sass as I should be, but keeping the UI pretty basic. Almost as much play testing as coding tonight. Decided that I need to be able to distinguish between the regular monsters and the boss monster. Mostly just minor changes to the code to get the pixel cells to work, and then handling the boss display.
 
 The daily programming challenge was pretty easy today. Made use of the ES6 spread operator because of how the problem was worded. The function was to take an unlimited number of parameters. The split was that the first parameter was the offset and the other parameters could just go into an array. Made a revised solution after seeing another solution. It made me realize that a simple change would allow me to access the value I needed with the use of String.substring().
 
 **Link to work:**
 
 -   [Find Nth Digit of Sequence Gist](https://gist.github.com/devNoiseConsulting/64c72989c543364099f66a7e7fd16efd)
--   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/6b06ba9ac8a3aa32f9feeb54b89a356660a06b55)
+
+### Day 11: Jun 9, 2017
+
+**Today's Progress:** Not much. Started working on random generation of the rooms for the Roguelike dungeon. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** A little bit of refactoring. Wanted to put all of the dungeon cell definitions all together. Started work on the generating rooms with the initializeRooms function. Not liking the direction I took and research into how to implementations are leading towards a binary tree setup.
+
+Had to refresh my memory for the daily programming challenge. I generally don't do user input in my node.js code. Made use of the ES6 string template, which is much nicer than the usual piece a string together with the desired variable.
+
+**Link to work:**
+
+-   [Guess the Number Gist](https://gist.github.com/devNoiseConsulting/11f94b1a76bd21d5ce99fd1e1715865e)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/7790aec9c79da335ef6f4e2c55da031ea059dc67)
 
 <!--
 
