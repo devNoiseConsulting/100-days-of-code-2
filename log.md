@@ -175,6 +175,16 @@ Had to refresh my memory for the daily programming challenge. I generally don't 
 -   [Guess the Number Gist](https://gist.github.com/devNoiseConsulting/11f94b1a76bd21d5ce99fd1e1715865e)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/7790aec9c79da335ef6f4e2c55da031ea059dc67)
 
+### Day 12: Jun 10, 2017
+
+**Today's Progress:** Refactoring the game logic for the Roguelike dungeon.
+
+**Thoughts:** Avoiding the room generation today and went with refactoring. Started with moving all the dungeon creation to the DungeonFactory. That was straight forward with the changes I did the other day. Next I move into making the game play function work with the currentState. This took a couple iterations as I tried to avoid breaking the game as much as possible. This lead to pulling data out of currentState as well a putting data back in. Then I worked on having the game play function return the currentState variable. At which point they could be moved into the DungeonFactory.  
+
+**Link to work:**
+
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/857df836866867b88323f35dbfeddbfee309a4a3)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
