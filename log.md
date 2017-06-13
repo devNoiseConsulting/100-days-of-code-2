@@ -185,6 +185,37 @@ Had to refresh my memory for the daily programming challenge. I generally don't 
 
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/857df836866867b88323f35dbfeddbfee309a4a3)
 
+### Day 13: Jun 11, 2017
+
+**Today's Progress:** Starting random room generation for Roguelike dungeon.
+
+**Thoughts:** Looking into BSP trees for creating the rooms for the dungeon. Started an implementation that seems good so far. Going forward, I need to think about how to calculate the placement of the door between rooms. At that point, I should be ready to draw the walls.
+
+The daily programming challenge was a simple guess the number game. Had to review how I get node to do input via the readline module.
+
+**Link to work:**
+
+-   [Guess the Number Gist](https://gist.github.com/devNoiseConsulting/11f94b1a76bd21d5ce99fd1e1715865e)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/03db1d34df115667b6bde7db1ab817451b5761e4)
+
+### Day 14: Jun 12, 2017
+
+**Today's Progress:** I finished my Roguelike Dungeon Crawler! Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** This project seems to complicated to develop in CodePen, so I developed it on my laptop in a simple react/webpack project. The UI is very simple with bootstrap and some colored span/pixels. It took time to get everything done, but I really had to do a deep dive into figuring out how to generate the dungeon rooms. Found some articles on BSP trees to create a map. Wrote my own tree class based off of the sample code I saw. I decided to keep the room full sized and have door ways instead of rooms that fit in the rectangle with connecting hallways.
+
+While I'm calling it done, there are 2 things I may come back to:
+
+-   React.createClass is being depreciated. I need to go back and convert my components into ES6 classes.
+-   It would be nice to make the dungeon larger. That would require me to splice the dungeon area down to a visible area that would be rendered.
+
+The daily programming challenge was similar to yesterdays, but you had to guess the name. Had to tweak the logic to help the user guess again.
+
+**Link to work:**
+
+-   [Guess the Name Gist](https://gist.github.com/devNoiseConsulting/f9402967e1b41f6120c62377880ba289)
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/2e1fe1fb195caec67eaa98e23af75882a2297253)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
