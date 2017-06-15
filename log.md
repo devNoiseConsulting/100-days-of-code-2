@@ -216,6 +216,20 @@ The daily programming challenge was similar to yesterdays, but you had to guess 
 -   [Guess the Name Gist](https://gist.github.com/devNoiseConsulting/f9402967e1b41f6120c62377880ba289)
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/2e1fe1fb195caec67eaa98e23af75882a2297253)
 
+### Day 15: Jun 13, 2017
+
+**Today's Progress:** Fixing door placement and starting component to class conversion for the Roguelike Dungeon Crawler. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Adding some randomization to the door placement so there is some variation moving between rooms. My orientation is a little off, had some errors where we went outside the dungeon bounds. Also started to work on getting the React components converted over to ES6 classes us jscodeshift. Trying to avoid pulling in the create-react-class module. Not sure if I'm running into a babel config setting, but it didn't like most of the converted classes. Removed the arrow function with plain functions and just commented out the empty state object.
+
+The daily programming challenge was a straight forward task using regex. Even made a bash one liner for it.
+
+**Link to work:**
+
+-   [Validate Phone Number Format Gist](https://gist.github.com/devNoiseConsulting/a970a02778ccb3a51d46adf4bb6073e8)
+-   [Roguelike Dungeon Crawler - Door Fix Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/c98b7f8ca015c476d27daa4aab013fb225c0fe1e)
+-   [Roguelike Dungeon Crawler - jscodeshift changes Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/04bd08c09bd15d9a357599bd9fb72a02a91e1496)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
