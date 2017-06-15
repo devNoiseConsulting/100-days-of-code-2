@@ -230,6 +230,19 @@ The daily programming challenge was a straight forward task using regex. Even ma
 -   [Roguelike Dungeon Crawler - Door Fix Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/c98b7f8ca015c476d27daa4aab013fb225c0fe1e)
 -   [Roguelike Dungeon Crawler - jscodeshift changes Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/04bd08c09bd15d9a357599bd9fb72a02a91e1496)
 
+### Day 16: Jun 14, 2017
+
+**Today's Progress:** Worked on Codecademy code challenge. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Using my Javascript skills to get the Codecademy challenge done. Using reduce to get the products. Had to remember to try pairs of negative numbers to get the maximum product.
+
+The PhillyDev daily programming challenge had you pad the words with 'x' to be the same length as the longest word. Also had to switch the first 'x' with a 'z' if the last letter of the word was 'x'.
+
+**Link to work:**
+
+-   [Word Block Gist](https://gist.github.com/devNoiseConsulting/23a4b9e4200ed7ddea2e7fc053843f71)
+-   [Codecademy Challenge - Max Product Finder](https://repl.it/ImHX/)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
