@@ -243,6 +243,16 @@ The PhillyDev daily programming challenge had you pad the words with 'x' to be t
 -   [Word Block Gist](https://gist.github.com/devNoiseConsulting/23a4b9e4200ed7ddea2e7fc053843f71)
 -   [Codecademy Challenge - Max Product Finder](https://repl.it/ImHX/)
 
+### Day 17: Jun 15, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** The simple programming challenge dragged me down a rabbit hole today. Basically repeat the challenge from yesterday, but transpose the word block. I took the quick way out and found an [answer](https://stackoverflow.com/a/36164530) on Stack Overflow for how to transpose a 2d array. I get how to transpose a matrix array and could have written my own code. Took the easy way out as I wanted the challenge done so I could do some analog stuff today with my son. When I get back to looking at my code, I want to understand exactly what the code I copied it doing. The code is getting expanded/converted so I can debug how the transpose is working. 
+
+**Link to work:**
+
+-   [Transposed Word Block Gist](https://gist.github.com/devNoiseConsulting/3b9f003119d9dd2979afa3079761d855)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
