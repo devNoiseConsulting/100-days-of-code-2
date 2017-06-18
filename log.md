@@ -247,11 +247,32 @@ The PhillyDev daily programming challenge had you pad the words with 'x' to be t
 
 **Today's Progress:** Daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** The simple programming challenge dragged me down a rabbit hole today. Basically repeat the challenge from yesterday, but transpose the word block. I took the quick way out and found an [answer](https://stackoverflow.com/a/36164530) on Stack Overflow for how to transpose a 2d array. I get how to transpose a matrix array and could have written my own code. Took the easy way out as I wanted the challenge done so I could do some analog stuff today with my son. When I get back to looking at my code, I want to understand exactly what the code I copied it doing. The code is getting expanded/converted so I can debug how the transpose is working. 
+**Thoughts:** The simple programming challenge dragged me down a rabbit hole today. Basically repeat the challenge from yesterday, but transpose the word block. I took the quick way out and found an [answer](https://stackoverflow.com/a/36164530) on Stack Overflow for how to transpose a 2d array. I get how to transpose a matrix array and could have written my own code. Took the easy way out as I wanted the challenge done so I could do some analog stuff today with my son. When I get back to looking at my code, I want to understand exactly what the code I copied it doing. The code is getting expanded/converted so I can debug how the transpose is working.
 
 **Link to work:**
 
 -   [Transposed Word Block Gist](https://gist.github.com/devNoiseConsulting/3b9f003119d9dd2979afa3079761d855)
+
+### Day 18: Jun 16, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** The daily programming theme this week seemed to be 2D arrays or matrix structures. Today's challenge was to take a list of words and make a word find. Got some [notes](http://www.c-sharpcorner.com/article/creating-word-find-pzzules-in-C-Sharp-and-gdi/
+) for a C# implementation. This gave me the foundation for the work I needed to do in Javascript, but I still needed to come up with the lower level functionality. When I called the placeWord function, I needed to make sure I made a copy to the sub-array otherwise I end up trashing the word find. Lots of debugging/testing to get this to work.
+
+**Link to work:**
+
+-   [Word Find Gist](https://gist.github.com/devNoiseConsulting/205f99b82f7561e79dfed701a92b431d)
+
+### Day 19: Jun 17, 2017
+
+**Today's Progress:** No progress, but trying to convert React Component to ES6 class.
+
+**Thoughts:** Trying to follow a couple articles on how to convert a React Component to an ES6 class. For some reason `state = {...};` ends up giving a `Module build failed: SyntaxError: Unexpected token` error. Now sure what is causing this and trying searching for a solution. Through it might get solves by adding es2015 presets to babel.
+
+**Link to work:**
+
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/f467584d2db91b4ffb70e362033365044db90e62)
 
 <!--
 
