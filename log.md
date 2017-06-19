@@ -274,6 +274,19 @@ The PhillyDev daily programming challenge had you pad the words with 'x' to be t
 
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/f467584d2db91b4ffb70e362033365044db90e62)
 
+### Day 20: Jun 18, 2017
+
+**Today's Progress:** No more warnings from React for the Roguelike Dungeon Crawler! Also getting the Github repo setup for the Voting Booth.
+
+**Thoughts:** Found Nathan Smith's [SlideShare](https://www.tandemseven.com/technology/how-to-get-started-with-react-slideshare/) which lead me to his [React Starter](https://github.com/t7/react-starter). Found a component that had a default/initial state. His method was to have a function that set the state and call it from a constructor. This seemed to differ from the way that jscodeshift and react-codmod converted my code. My implementation followed, but also had the function return the state as I had code that wanted a copy of the initial state before setting the state.
+
+Also started getting a repo setup to create a React app for the Voting App project. Haven't tried to setup a starter shell repo, but copy the packages I installed on the Roguelike Dungeon Crawler and some of the config files.
+
+**Link to work:**
+
+-   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/bb2a1e8e4c9b8f263b47c290e2defecdc9d4e89f)
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/d2b2b16941cf427f90a932794b84813fdf7eca35)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
