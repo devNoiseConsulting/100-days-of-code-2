@@ -287,6 +287,19 @@ Also started getting a repo setup to create a React app for the Voting App proje
 -   [Roguelike Dungeon Crawler Commit](https://github.com/devNoiseConsulting/roguelike-dungeon-crawler/commit/bb2a1e8e4c9b8f263b47c290e2defecdc9d4e89f)
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/d2b2b16941cf427f90a932794b84813fdf7eca35)
 
+### Day 21: Jun 19, 2017
+
+**Today's Progress:** Working on a portfolio page for my freeCodeCamp projects. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Started playing around with Bootstrap v4. Need to get something in place for freecodecamp.devnose.com where I've hosted a couple of the projects I thought were to big for CodePen. Focusing on using the card component. Still need to figure out how to size and place them on the page.
+
+The daily programming challenge had me creating a store of peoples time in an office. Created class for the workers and office schedule. Created a toString function to create the required output.
+
+**Link to work:**
+
+-   [Office Hours Gist](https://gist.github.com/devNoiseConsulting/df3974d16ba0af67e9a770911683df72)
+-   [freeCodeCamp Portfolio Commit](https://github.com/devNoiseConsulting/fcc-portfolio/commit/f42f861619292c7f4ac972edf2802214ab946309)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
