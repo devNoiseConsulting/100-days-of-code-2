@@ -304,14 +304,15 @@ The daily programming challenge had me creating a store of peoples time in an of
 
 **Today's Progress:** More work on a portfolio page for my freeCodeCamp projects. Daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** More work on the portfolio page with Bootstrap cards. Having issues getting a resizable width. 
+**Thoughts:** More work on the portfolio page with Bootstrap cards. Having issues getting a resizable width.
 
-The daily programming challenge had me creating a store of peoples time in an office. Created class for the workers and office schedule. Created a toString function to create the required output.
+The daily programming challenge built off of the previous challenge. Determined when to have a meeting that all coworkers could attend.
 
 **Link to work:**
 
 -   [Get Meeting Time Gist](https://gist.github.com/devNoiseConsulting/d03e43b9176546a2e2b3432eb01f8aa1)
 -   [freeCodeCamp Portfolio Commit](https://github.com/devNoiseConsulting/fcc-portfolio/commit/31b7dff0148fcbd96aa2bbd134f0b068901bfa55)
+
 
 <!--
 
