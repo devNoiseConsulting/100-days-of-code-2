@@ -257,8 +257,7 @@ The PhillyDev daily programming challenge had you pad the words with 'x' to be t
 
 **Today's Progress:** Daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** The daily programming theme this week seemed to be 2D arrays or matrix structures. Today's challenge was to take a list of words and make a word find. Got some [notes](http://www.c-sharpcorner.com/article/creating-word-find-pzzules-in-C-Sharp-and-gdi/
-) for a C# implementation. This gave me the foundation for the work I needed to do in Javascript, but I still needed to come up with the lower level functionality. When I called the placeWord function, I needed to make sure I made a copy to the sub-array otherwise I end up trashing the word find. Lots of debugging/testing to get this to work.
+**Thoughts:** The daily programming theme this week seemed to be 2D arrays or matrix structures. Today's challenge was to take a list of words and make a word find. Got some [notes](http://www.c-sharpcorner.com/article/creating-word-find-pzzules-in-C-Sharp-and-gdi/) for a C# implementation. This gave me the foundation for the work I needed to do in Javascript, but I still needed to come up with the lower level functionality. When I called the placeWord function, I needed to make sure I made a copy to the sub-array otherwise I end up trashing the word find. Lots of debugging/testing to get this to work.
 
 **Link to work:**
 
@@ -313,6 +312,18 @@ The daily programming challenge built off of the previous challenge. Determined 
 -   [Get Meeting Time Gist](https://gist.github.com/devNoiseConsulting/d03e43b9176546a2e2b3432eb01f8aa1)
 -   [freeCodeCamp Portfolio Commit](https://github.com/devNoiseConsulting/fcc-portfolio/commit/31b7dff0148fcbd96aa2bbd134f0b068901bfa55)
 
+### Day 23: Jun 21, 2017
+
+**Today's Progress:** Took my son to Phill.net's meetup to learn Scratch. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Since my son has expressed some interest in what I'm programming, I decided to a meetup that was focused on coding for kids. He was able to customize the basic example and came up with another project. His desire to customize his 2nd project exceeded the introduction he got to Scratch. When we got home I worked him through some pseudocode that would get the project to work like he wants.
+
+The daily programming challenge continues the office theme. The input now features the workers preferred meeting time. Made another pass through the available meeting times and added a bonus to the worker's preferred meeting times.
+
+**Link to work:**
+
+-   [JavaScriptish pseudocode for a Scratch project Gist](https://gist.github.com/devNoiseConsulting/6c9dd33469dffc2404114b20aa840b1d)
+-   [Get Preferred Meeting Time Gist](https://gist.github.com/devNoiseConsulting/fc4329c3ac63270aeca6d04e4760a802)
 
 <!--
 
