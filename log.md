@@ -316,7 +316,7 @@ The daily programming challenge built off of the previous challenge. Determined 
 
 **Today's Progress:** Took my son to Phill.net's meetup to learn Scratch. Daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** Since my son has expressed some interest in what I'm programming, I decided to a meetup that was focused on coding for kids. He was able to customize the basic example and came up with another project. His desire to customize his 2nd project exceeded the introduction he got to Scratch. When we got home I worked him through some pseudocode that would get the project to work like he wants.
+**Thoughts:** Since my son has expressed some interest in what I'm programming, I decided to take hime to a meetup that was focused on coding for kids. He was able to customize the basic example and came up with another project. His desire to customize his 2nd project exceeded the introduction he got to Scratch. When we got home I worked him through some pseudocode that would get the project to work like he wants.
 
 The daily programming challenge continues the office theme. The input now features the workers preferred meeting time. Made another pass through the available meeting times and added a bonus to the worker's preferred meeting times.
 
@@ -324,6 +324,19 @@ The daily programming challenge continues the office theme. The input now featur
 
 -   [JavaScriptish pseudocode for a Scratch project Gist](https://gist.github.com/devNoiseConsulting/6c9dd33469dffc2404114b20aa840b1d)
 -   [Get Preferred Meeting Time Gist](https://gist.github.com/devNoiseConsulting/fc4329c3ac63270aeca6d04e4760a802)
+
+### Day 24: Jun 21, 2017
+
+**Today's Progress:** Grid layout on the portfolio page for my freeCodeCamp projects. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Took a peak at some examples on [Bootsnipp](https://bootsnipp.com/) to see how other people are working with card in Bootstrap v4. Seems like the grid layout is the way to go. Using the different break points to resize the cards. Also dropped the card-link class in favor of buttons for the links. Didn't like how the links were displaying when I had a link to the project and th github repo.
+
+The daily programming challenge continues the office theme. The tweak today was to allow some workers to be optional for a meeting. So now the coworker class has mustAttend property. When marking the best time, optional workers have their weighted preferences recorded at 1x and required workers at 3x. While my code works, I returned a different result as my weighted preference calculation affected the choice.
+
+**Link to work:**
+
+-   [Get Preferred Meeting Time II Gist](https://gist.github.com/devNoiseConsulting/f990988f535c34d627f8ed84a32e6053)
+
 
 <!--
 
