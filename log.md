@@ -325,7 +325,7 @@ The daily programming challenge continues the office theme. The input now featur
 -   [JavaScriptish pseudocode for a Scratch project Gist](https://gist.github.com/devNoiseConsulting/6c9dd33469dffc2404114b20aa840b1d)
 -   [Get Preferred Meeting Time Gist](https://gist.github.com/devNoiseConsulting/fc4329c3ac63270aeca6d04e4760a802)
 
-### Day 24: Jun 21, 2017
+### Day 24: Jun 22, 2017
 
 **Today's Progress:** Grid layout on the portfolio page for my freeCodeCamp projects. Daily programming challenge from the PhillyDev Slack.
 
@@ -336,6 +336,18 @@ The daily programming challenge continues the office theme. The tweak today was 
 **Link to work:**
 
 -   [Get Preferred Meeting Time II Gist](https://gist.github.com/devNoiseConsulting/f990988f535c34d627f8ed84a32e6053)
+
+### Day 25: Jun 23, 2017
+
+**Today's Progress:** Fighting with screen shots for the portfolio page. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Wanted to make the Bootstrap v4 card fancy and include an image. Trying to use Firefox's built in screenshot from the developer toolbar. My problem with the screenshots is that CodePen puts the rendered version in an iFrame. I'm trying to make a full page screenshot with the real content in the iframe. Firefox thinks it has the full page, but is truncating the screenshot.
+
+The daily programming challenge continues the office theme. Had to rewrite the schedule creation to accept input from the command line. Made use of the readline module. Snagged a code sample from a previous challenge I completed. Put the different prompts in an array and loop over them. Only issue was that rl.close() didn't seem to stop the program from asking for input. Ended up with a process.exit() to terminate the execution.
+
+**Link to work:**
+
+-   [Get Preferred Meeting Time III Gist](https://gist.github.com/devNoiseConsulting/b1a6e30eac85d34cf0a2bd2565418760)
 
 
 <!--
