@@ -349,6 +349,15 @@ The daily programming challenge continues the office theme. Had to rewrite the s
 
 -   [Get Preferred Meeting Time III Gist](https://gist.github.com/devNoiseConsulting/b1a6e30eac85d34cf0a2bd2565418760)
 
+### Day 26: Jun 24, 2017
+
+**Today's Progress:** Adding screenshots to the Bootstrap v4 cards.
+
+**Thoughts:** Finished making all the screenshots that I could. Using some Imagemagick tools to resize, crop and pad the screenshots into a usable size for the cards. Had to do a some searches to find the command and options I needed to get the image as I wanted.
+
+**Link to work:**
+
+-   [freeCodeCamp Portfolio Commit](https://github.com/devNoiseConsulting/fcc-portfolio/commit/e8d9314acf674ab4b17cc6cc189c2de80582bfc4)
 
 <!--
 
