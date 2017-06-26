@@ -359,6 +359,17 @@ The daily programming challenge continues the office theme. Had to rewrite the s
 
 -   [freeCodeCamp Portfolio Commit](https://github.com/devNoiseConsulting/fcc-portfolio/commit/e8d9314acf674ab4b17cc6cc189c2de80582bfc4)
 
+### Day 27: Jun 25, 2017
+
+**Today's Progress:** Not much. Trying to get a handle on requirements.
+
+**Thoughts:** [Passport](http://passportjs.org/) seems like the option to use for authentication. Need to get a better handle on the authentication. I think the auth part is putting up a big road block for me. Feel like I have to many moving pieces right now.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/6d10ab6d0796ea3b29b8bda71a3ba44c86e77117)
+
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
