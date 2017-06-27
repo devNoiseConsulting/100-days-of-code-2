@@ -369,6 +369,15 @@ The daily programming challenge continues the office theme. Had to rewrite the s
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/6d10ab6d0796ea3b29b8bda71a3ba44c86e77117)
 
+### Day 28: Jun 26, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Bowling score calculators are tricky. I've gone bowling enough that I can score a frame, but putting that into code isn't easy. The input is an array of strings that represent the frame. Started by converting the each frame from a string to an array via split(). Strikes are represented by an 'X' so I mapped all those to a value of 10. Next I converted the spares into integer values. The '/' was converted into 10 minus the value of the first throw. At that point the code put in the values needed to calculate strikes and spares. This allowed sum/reduce the values in the frame with another sum/reduce on all the frames.
+
+**Link to work:**
+
+-   [Bowling Score Calculator Gist](https://gist.github.com/devNoiseConsulting/36100310fcb7a79860d82ecdc63e65bb)
 
 <!--
 
