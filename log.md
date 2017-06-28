@@ -379,6 +379,19 @@ The daily programming challenge continues the office theme. Had to rewrite the s
 
 -   [Bowling Score Calculator Gist](https://gist.github.com/devNoiseConsulting/36100310fcb7a79860d82ecdc63e65bb)
 
+### Day 29: Jun 27, 2017
+
+**Today's Progress:** Trying to get an old project running again. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** I can't stand using CodePen for semi-complex projects. Trying to figure out how I can use the Twitch Pass Through API with the fetch API. I told it not to worry about CORS with the mode set to `no-cors` and end up with a response that has status = 0 and no data. Remove the mode option and get a warning about preflight. Made a post for help on the freeCodeCamp forum.
+
+The daily programming has us validating a football score. I came up with a plow through it sort of solution. Minor tweaks but following the original intent to solve the problem. The interesting part was someone else's solution used Array.some() to solve the problem. I had never used that helper function before and had to research it some. Array.some() will return true if any of the values in the array returns a true.
+
+**Link to work:**
+
+-   [Twitch API CodePen](http://codepen.io/_dev_noise/pen/rjKxpj)
+-   [Validate American Football Score Gist](https://gist.github.com/devNoiseConsulting/77df3661af8ba37d5599338778dd0755)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
