@@ -392,6 +392,18 @@ The daily programming has us validating a football score. I came up with a plow 
 -   [Twitch API CodePen](http://codepen.io/_dev_noise/pen/rjKxpj)
 -   [Validate American Football Score Gist](https://gist.github.com/devNoiseConsulting/77df3661af8ba37d5599338778dd0755)
 
+### Day 30: Jun 28, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack. Stalled looking for React tutorials
+
+**Thoughts:** The daily programming has us accept a string of letters and then display the state of a Scrabble tile bag. Instead of just typing in an object with the initial bag state, I made it a string and parsed it into an object. The typeof call didn't help me when I need to know if I have an object or an array. Use `bag.constructor === Array` instead.
+
+Trying to figure out if I need state (ie redux) or a router to make my react apps to more functional. 
+
+**Link to work:**
+
+-   [Scrabble Bag State Gist](https://gist.github.com/devNoiseConsulting/4c021a91c51e3811d351153afac2ea3a)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
