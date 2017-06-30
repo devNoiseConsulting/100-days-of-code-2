@@ -398,11 +398,24 @@ The daily programming has us validating a football score. I came up with a plow 
 
 **Thoughts:** The daily programming has us accept a string of letters and then display the state of a Scrabble tile bag. Instead of just typing in an object with the initial bag state, I made it a string and parsed it into an object. The typeof call didn't help me when I need to know if I have an object or an array. Use `bag.constructor === Array` instead.
 
-Trying to figure out if I need state (ie redux) or a router to make my react apps to more functional. 
+Trying to figure out if I need state (ie redux) or a router to make my react apps to more functional.
 
 **Link to work:**
 
 -   [Scrabble Bag State Gist](https://gist.github.com/devNoiseConsulting/4c021a91c51e3811d351153afac2ea3a)
+
+### Day 30: Jun 28, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** I think my brain melted/broke when I saw this problem. We had to write a program that would solve [Countdown's number round](https://en.wikipedia.org/wiki/Countdown_(game_show)#Numbers_round). From the description I knew it was going to be some sort of recursive search algorithm type problem. While I can handle this kind of code, it's not a typical programming challenge that some time on before I start my day. Drawing a blank on the solution, I did a search to see what some solutions were. Found a couple in Ruby, Java and Python. All doing some stuff I couldn't completely follow. But the general gist of the solutions is take a number out of the array and then call the worker function. The worker function will take a number out of the array and try to add, subtract, multiply and divide the original value. I then throw this back into the worker function. If the number we send in isn't an integer or negative then this path is bad and stop working. Other the code keeps going until the array no longer has any values in it. At this point we see if the number matches the target.
+
+Since I'm writing this in Javascript, I made use of the .forEach() function. I can't break out of this function, so I keep track if a solution is found. If so then don't do work on the remaining iterations. 
+
+**Link to work:**
+
+-   [British tv game show "Countdown" Solver Gist](https://gist.github.com/devNoiseConsulting/961042a6677d6e30965db406a6c71a0e)
+
 
 <!--
 
