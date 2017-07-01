@@ -404,18 +404,29 @@ Trying to figure out if I need state (ie redux) or a router to make my react app
 
 -   [Scrabble Bag State Gist](https://gist.github.com/devNoiseConsulting/4c021a91c51e3811d351153afac2ea3a)
 
-### Day 30: Jun 28, 2017
+### Day 31: Jun 29, 2017
 
 **Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
 
 **Thoughts:** I think my brain melted/broke when I saw this problem. We had to write a program that would solve [Countdown's number round](https://en.wikipedia.org/wiki/Countdown_(game_show)#Numbers_round). From the description I knew it was going to be some sort of recursive search algorithm type problem. While I can handle this kind of code, it's not a typical programming challenge that some time on before I start my day. Drawing a blank on the solution, I did a search to see what some solutions were. Found a couple in Ruby, Java and Python. All doing some stuff I couldn't completely follow. But the general gist of the solutions is take a number out of the array and then call the worker function. The worker function will take a number out of the array and try to add, subtract, multiply and divide the original value. I then throw this back into the worker function. If the number we send in isn't an integer or negative then this path is bad and stop working. Other the code keeps going until the array no longer has any values in it. At this point we see if the number matches the target.
 
-Since I'm writing this in Javascript, I made use of the .forEach() function. I can't break out of this function, so I keep track if a solution is found. If so then don't do work on the remaining iterations. 
+Since I'm writing this in Javascript, I made use of the .forEach() function. I can't break out of this function, so I keep track if a solution is found. If so then don't do work on the remaining iterations.
 
 **Link to work:**
 
 -   [British tv game show "Countdown" Solver Gist](https://gist.github.com/devNoiseConsulting/961042a6677d6e30965db406a6c71a0e)
 
+### Day 32: Jun 29, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack. Started some Redux videos on Egghead.io
+
+**Thoughts:** The daily programming challenge ended up being a striped down version of yesterday's solution. Instead of calling the worker function, I did work inside the main function. Generally just create a sub array that excludes the current value the code is iterating over. Iterate over the sub array and see the sum equals the target. One suggested solution was to subtract the iterating value from the target and see is the sub array contains the difference. It's probably still O(n^2), but from my code the appears to be O(n).
+
+Started watching some videos on Egghead.io based off of a response to one of my #100DaysOfCode tweets. It looks like it makes sense, but I still get the feeling that I'm gonna need a router for the react app to complete the Voting App project. Makes me wonder if I should jump back to an Angular app with the CLI or do I start looking for a React CLI?
+
+**Link to work:**
+
+-   [Find numbers that sum to target Gist](https://gist.github.com/devNoiseConsulting/328f6694b1b8be5c245e3ea2e32707c2)
 
 <!--
 
