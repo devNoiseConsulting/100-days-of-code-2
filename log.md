@@ -416,7 +416,7 @@ Since I'm writing this in Javascript, I made use of the .forEach() function. I c
 
 -   [British tv game show "Countdown" Solver Gist](https://gist.github.com/devNoiseConsulting/961042a6677d6e30965db406a6c71a0e)
 
-### Day 32: Jun 29, 2017
+### Day 32: Jun 30, 2017
 
 **Today's Progress:**  Daily programming challenge from the PhillyDev Slack. Started some Redux videos on Egghead.io
 
@@ -427,6 +427,18 @@ Started watching some videos on Egghead.io based off of a response to one of my 
 **Link to work:**
 
 -   [Find numbers that sum to target Gist](https://gist.github.com/devNoiseConsulting/328f6694b1b8be5c245e3ea2e32707c2)
+
+### Day 33: Jul 5, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack. Some more React research.
+
+**Thoughts:** Felt the description for the daily programming challenge was a little vague, The example pseudocode made it look like your were passing in recipe object to get the ingredients. If you have the recipe object you have the ingredients. You were suppose to create a class/structure for a recipe that has a name and an array of ingredients. After that I made a recipe box class to hold the recipes. The getIngredient function would take in the recipe name as an argument, At that point you find the recipe with the matching name and output the list of ingredients.
+
+It looks like `create-react-app` is the best cli tool for creating ReactJS apps.
+
+**Link to work:**
+
+-   [Recipe Structures Gist](https://gist.github.com/devNoiseConsulting/924401eb19e5617456c7b723dbced2ec)
 
 <!--
 
