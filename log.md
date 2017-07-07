@@ -440,6 +440,18 @@ It looks like `create-react-app` is the best cli tool for creating ReactJS apps.
 
 -   [Recipe Structures Gist](https://gist.github.com/devNoiseConsulting/924401eb19e5617456c7b723dbced2ec)
 
+### Day 34: Jul 6, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Let's start off with variable naming is always important. Am I using the ingredients variable that is a map or the ingredients variable that is an array? If you have a simple setter function keeping them the same is okay. If you need to do work with both of them, you can get confused and bad things happen.
+
+Made us of the Map object to store the ingredients in the Panty object. It was useful to help create a clean implementation. I could have gone with a plain object to hold the ingredients. Though I would have been using hasOwnProperty() and probably coding more checks to keep everything straight.
+
+**Link to work:**
+
+-   [Recipe Structures II Gist](https://gist.github.com/b8fcc019e2bc009b19d8949836aaa90b)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
