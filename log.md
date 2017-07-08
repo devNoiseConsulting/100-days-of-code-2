@@ -452,6 +452,17 @@ Made us of the Map object to store the ingredients in the Panty object. It was u
 
 -   [Recipe Structures II Gist](https://gist.github.com/b8fcc019e2bc009b19d8949836aaa90b)
 
+### Day 35: Jul 7, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** More Maps in my data structures today. Needed to allow for ingredient substitutions. I keep the substitutions in the recipe box class instead of on the recipe class. The Map portion worked without much issue. The big part was to remember to make a copy of the ingredients array. While my code was working, I realized that I displayed the substituted ingredient without passing it back. Array references! I was making change on the original array and that would corrupt the ingredient for any future use. So made some tweaks with a copy of the array and made sure to pass back the used ingredients for the output.
+
+**Link to work:**
+
+-   [Recipe Structures III Gist](https://gist.github.com/0f7cae2c67bf308947b5f188706384c8)
+
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
