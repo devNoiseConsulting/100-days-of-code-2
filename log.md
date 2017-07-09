@@ -462,6 +462,15 @@ Made us of the Map object to store the ingredients in the Panty object. It was u
 
 -   [Recipe Structures III Gist](https://gist.github.com/0f7cae2c67bf308947b5f188706384c8)
 
+### Day 36: Jul 8, 2017
+
+**Today's Progress:**  Working with the React-Router
+
+**Thoughts:** Started working through a [scotch.io tutorial](https://scotch.io/tutorials/build-a-mini-netflix-with-react-in-10-minutes). This is helping me work with the create-react-app tool. Since this is Javascript, libraries and frameworks are always out of date. So while cutting and pasting some code in, I'm also trying to update the code. This means migrating from React-Router v3 to v4. browserHistory now seems to be BrowserRouter. I seemed to have some issue with the component rendering. Initially, it would draw the default component as well as the selected component. Looks like I needed to use the Switch component. That would only render the default component until I added the exact attribute to the Route component. That's all I had time for before I put into a Github repo to have some proof of work for the log.
+
+**Link to work:**
+
+-   [miniflix commit](https://github.com/devNoiseConsulting/miniflix/commit/f3d97a68ddaaea673153fc23c0ad633f37d85449)
 
 <!--
 
