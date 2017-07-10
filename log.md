@@ -472,6 +472,16 @@ Made us of the Map object to store the ingredients in the Panty object. It was u
 
 -   [miniflix commit](https://github.com/devNoiseConsulting/miniflix/commit/f3d97a68ddaaea673153fc23c0ad633f37d85449)
 
+### Day 37: Jul 9, 2017
+
+**Today's Progress:**  Working with the React-Router
+
+**Thoughts:** More work on the [scotch.io tutorial](https://scotch.io/tutorials/build-a-mini-netflix-with-react-in-10-minutes). Maybe the React-router is pretty straight forward, but didn't get into many details today. Mostly got exposure to the Cloudinary Service. Always seem to hard code keys into the code and then commit them. I left them in the code, but then I deleted the keys from the Cloudinary dashboard.
+
+**Link to work:**
+
+-   [miniflix commit](https://github.com/devNoiseConsulting/miniflix/commit/c50476de8e3a417cf292ea8500067d0e76497c74)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
