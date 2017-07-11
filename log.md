@@ -482,6 +482,16 @@ Made us of the Map object to store the ingredients in the Panty object. It was u
 
 -   [miniflix commit](https://github.com/devNoiseConsulting/miniflix/commit/c50476de8e3a417cf292ea8500067d0e76497c74)
 
+### Day 38: Jul 10, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Worked on a vowel count on text input from readline. Really worked most of this memory. Tricky part is using .indexOf() inside .filter() you need to make a test and not rely on the result. "-1" is not false and everything got counted.
+
+**Link to work:**
+
+-   [Vowel Count Gist](https://gist.github.com/devNoiseConsulting/4d7600b410c7c1ad641734b23ae32cc7)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
