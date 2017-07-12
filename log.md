@@ -492,6 +492,19 @@ Made us of the Map object to store the ingredients in the Panty object. It was u
 
 -   [Vowel Count Gist](https://gist.github.com/devNoiseConsulting/4d7600b410c7c1ad641734b23ae32cc7)
 
+### Day 39: Jul 11, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack. Tweaking the myGeoBeerMap
+
+**Thoughts:** Needed to find all sets of 3 numbers in an array that sum to zero. Pretty much went brute force on my approach. For each iteration, I would make a slice of the array that was comprised of the remaining elements. The real tricky part was trying return only the unique sets. First I sorted all elements to help reduce duplicates. Finally I saved the set into a Map variable so tht any duplicates would overwrite the old value. This way Map.values will return an iterator of my unique sets. Otherwise I probably have to implement a function that would compare 2 arrays. That seemed like to much overhead when the Map variable would handle it as I generated the sets.
+
+Also updated how leaflet.js gets tiles from Mapbox. Dropped down the rabbit hole or testing out all the map styles I could use. Settled on 'high-contrast' as it stays pretty monochromatic, but gives more road details.
+
+**Link to work:**
+
+-   [3Sum Solution Gist](https://gist.github.com/devNoiseConsulting/08f08f1412b36115be5aae02fc8399fd)
+-   [myGeoBeerMap commit](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/741acebbe91b5a217b241cb1bda7934aac5503e3)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
