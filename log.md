@@ -505,6 +505,18 @@ Also updated how leaflet.js gets tiles from Mapbox. Dropped down the rabbit hole
 -   [3Sum Solution Gist](https://gist.github.com/devNoiseConsulting/08f08f1412b36115be5aae02fc8399fd)
 -   [myGeoBeerMap commit](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/741acebbe91b5a217b241cb1bda7934aac5503e3)
 
+### Day 40: Jul 12, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** JS Map are my new hammer. Feel like I've been using them a lot in my daily programming challenges. First pass I made a Map variable for every text conversion I was making. After seeing some other solutions, I went back and made a single map that had all the number to text conversions.
+
+An email late in the day from Heroku, made me review my freeCodeCamp projects that are deployed on the service. Due to a denial of service attack, they would like all apps moved to one of the latest Long Term Support versions of node. I ended up changing the node version from a specific version to an generic version that would allow Heroku to load the latest version. This made me brush up on some of the Heroku setup I did and figure out how to reload the app.
+
+**Link to work:**
+
+-   [Time to Text Gist](https://gist.github.com/8cfdd84856afbeedd9bb441b724452eb)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
