@@ -517,6 +517,16 @@ An email late in the day from Heroku, made me review my freeCodeCamp projects th
 
 -   [Time to Text Gist](https://gist.github.com/8cfdd84856afbeedd9bb441b724452eb)
 
+### Day 41, Jul 13, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** The daily programming challenge sucked up my coding spare time. The concept was to initialize a 2d array with values that populate in a spiral. Controlling the next location to initialize took a lot of thought. First pass was to try an monitor the array bound and change direction through a bunch of if statements. I could get a couple direction changes, but not all that were needed. I scrapped that approach and went with a new check. Now sure the row exists and the element is equal to 0. If so I write the value to the array or I back up to the previous element, update direction and increment. After my false start, this approach quickly came together.
+
+**Link to work:**
+
+-   [Spiral Array Fill Gist](https://gist.github.com/devNoiseConsulting/2e954aefc49e794ada73649a53ed1b81)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
