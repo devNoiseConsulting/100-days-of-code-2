@@ -527,6 +527,19 @@ An email late in the day from Heroku, made me review my freeCodeCamp projects th
 
 -   [Spiral Array Fill Gist](https://gist.github.com/devNoiseConsulting/2e954aefc49e794ada73649a53ed1b81)
 
+### Day 42, Jul 14, 2017
+
+**Today's Progress:**  Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Trying to merge words together if the end of a word overlaps with the beginning of the next word. Wrote a function to take in two words and that made a bunch of .slice()s of the first word and check if the second word .startsWith() the fragment. If a match is found the merged word is returned. Then a .replace() is used to change the original string with the merged word.
+
+Also attended PGConf US Local: Philadelphia. Getting a feel for Postgres.
+
+**Link to work:**
+
+-   [Word Condenser Gist](https://gist.github.com/devNoiseConsulting/446a355741bb5f29d4a5ea86e55350cf)
+
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
