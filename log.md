@@ -539,6 +539,16 @@ Also attended PGConf US Local: Philadelphia. Getting a feel for Postgres.
 
 -   [Word Condenser Gist](https://gist.github.com/devNoiseConsulting/446a355741bb5f29d4a5ea86e55350cf)
 
+### Day 43, Jul 15, 2017
+
+**Today's Progress:**  Trying to overcome Developaralysis for Voting App.
+
+**Thoughts:** How should all of the stuff be handled? The front end is going to be a ReactJS app. The API/back end is going to be an express.js app with a MongoDB for storage. Are these deployed on two different Node.js instances or from the same instance? Confused about how a ReactJS SPA that most likely will use the React-router gets served from an Express.js server. Went the the freeCodeCamp forum to look for suggestions on how to tackle this project. Found an article named
+[How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server) that seems to cover how I should put this project together. Will try to get some code going tomorrow. 
+
+**Link to work:**
+
+-   No code today. :(
 
 <!--
 
