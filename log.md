@@ -544,11 +544,23 @@ Also attended PGConf US Local: Philadelphia. Getting a feel for Postgres.
 **Today's Progress:**  Trying to overcome Developaralysis for Voting App.
 
 **Thoughts:** How should all of the stuff be handled? The front end is going to be a ReactJS app. The API/back end is going to be an express.js app with a MongoDB for storage. Are these deployed on two different Node.js instances or from the same instance? Confused about how a ReactJS SPA that most likely will use the React-router gets served from an Express.js server. Went the the freeCodeCamp forum to look for suggestions on how to tackle this project. Found an article named
-[How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server) that seems to cover how I should put this project together. Will try to get some code going tomorrow. 
+[How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server) that seems to cover how I should put this project together. Will try to get some code going tomorrow.
 
 **Link to work:**
 
 -   No code today. :(
+
+### Day 44, Jul 17, 2017
+
+**Today's Progress:**  Getting the Github repo setup for the Voting Booth. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Starting to get back into the voting app project. Using the advice from the article to restructure the code so that I have an express API and the react client in a single repo. Not much real code done, but have the servers setup running.
+
+The daily programming challenge was the start of a theme of challenges for the week. Needed to initialize and display a game board. I grabbed the spiral array code from last week and started from there. Gutted a some stuff and worked on getting the code working.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/f5cda1ff100edc4ee4a8d1f93c5262dcaaae1013)
 
 <!--
 
