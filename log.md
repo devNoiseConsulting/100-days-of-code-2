@@ -561,6 +561,20 @@ The daily programming challenge was the start of a theme of challenges for the w
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/f5cda1ff100edc4ee4a8d1f93c5262dcaaae1013)
+-   [Game Board Setup and Formatting Gist](https://gist.github.com/devNoiseConsulting/6abd1e2dec4070daabb212e42bf59308)
+
+### Day 45, Jul 18, 2017
+
+**Today's Progress:**  Committed some doc change for the API. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Didn't get as much coding on the voting app as I would have liked. Mostly made changes to the README.md file to document what API calls I need to have. Mapping the calls to a route and HTTP request type (GET, POST, PUT, DELETE).
+
+The daily programming challenge took yesterdays challenge and added boat placement. Took the code and moved it into a class. This required some minor changes to make it work. Since it seems like we're gonna have a couple different functions work on the game board it seemed like the right thing to do. Since I didn't feel like duplicating the game board array for the placement, I had 2 loops. One to check if the placement is valid and a second to do the operation. This saved me from having to back out the placement if it became invalid.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/c6ce3e18253495095af2572d0922270eda260c8b)
+-   [Boat Game Gist](https://gist.github.com/devNoiseConsulting/f2960c7d28fb9253512063f7fadf4ba7)
 
 <!--
 
