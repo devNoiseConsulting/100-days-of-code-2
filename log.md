@@ -589,6 +589,30 @@ The daily programming challenge continued it's boat game theme. Took the existin
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/18b22bc89dfa9814434dcc34c3927db03e17cf85)
 -   [Opponent Boat Game Board Gist](https://gist.github.com/devNoiseConsulting/242a470da4fc94cc5585bbaca0fa6a4e)
 
+### Day 47, Jul 20, 2017
+
+**Today's Progress:** Trying to generate IDs for the polls. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Working on Poll structure and how to generate an ID for the poll. Looking
+into UUID v4 and then converting them to Base64.
+
+Converting previous daily challenges into a board class. Then create a game class that instantiates 2 instances of the game board. Created a function to mark the guesses on the board. Worked on the create a redacted display of the game board so you can see your hits and misses, but not see your opponents placement.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/0d063f4d521b701e098724b391c257169f7a0b59)
+-   [Boat Game II Gist](https://gist.github.com/devNoiseConsulting/97508b3c4d4e60e3df87397279e840b5)
+
+### Day 48, Jul 21, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Not as much work as I would have liked, but did complete my daily challenge. So now we need to report when the ship is sunk. Instead of trying to scan the game board and try to figure out if anything is now sunk, I tracking it in a separate var. The game board now has a fleet which contains the boat type and size. The boat placement was modified to accept the boat's id. This way when a hit is made, we decrement the size of that ship. If we get to zero, then the message is sunk instead of a hit. To test this, I just made a while loop the would generated guess locations and fire away. Saw the sunk message as well as a lot of invalid moves. Assuming that we generated locations that had already been used.
+
+**Link to work:**
+
+-   [Boat Game III Gist](https://gist.github.com/devNoiseConsulting/05eba363c4259db0bf4a36d7fb68bcf7)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
