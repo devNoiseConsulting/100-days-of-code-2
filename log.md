@@ -576,6 +576,19 @@ The daily programming challenge took yesterdays challenge and added boat placeme
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/c6ce3e18253495095af2572d0922270eda260c8b)
 -   [Boat Game Gist](https://gist.github.com/devNoiseConsulting/f2960c7d28fb9253512063f7fadf4ba7)
 
+### Day 46, Jul 19, 2017
+
+**Today's Progress:**  Getting connected to the MongoDB. Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Getting the collection setup on the MongoDB instance. Putting code in place to setup the connection to MongoDB.
+
+The daily programming challenge continued it's boat game theme. Took the existing code and made the needed changes. placeBoat will now accept either a letter or number for the x coord. This allowed me to just generate random numbers for the boat placement when create the opponent's board.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/18b22bc89dfa9814434dcc34c3927db03e17cf85)
+-   [Opponent Boat Game Board Gist](https://gist.github.com/devNoiseConsulting/242a470da4fc94cc5585bbaca0fa6a4e)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
