@@ -613,6 +613,16 @@ Converting previous daily challenges into a board class. Then create a game clas
 
 -   [Boat Game III Gist](https://gist.github.com/devNoiseConsulting/05eba363c4259db0bf4a36d7fb68bcf7)
 
+### Day 49, Jul 24, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Challenge today was to convert XML into JSON. I initially tried to use regex to extract some logic out but quickly felt out of depth. A couple searches show some StackOverflow link that said Regex is not a parser and not good for XML. Drop back to using a library that would handle the parsing since Node.js doesn't seem to support the experimental DOMParser object. Since XML2JS's parseString used a callback I ended up saving the result to a global variable. Added some extra processing to make the JSON look closer to the example output. Generally, the resulting JSON was fine, it put string data inside an array. So I added some code to remove arrays with single elements. Figure I needed to write some code to match the example.
+
+**Link to work:**
+
+-   [XML to JSON Gist](https://gist.github.com/devNoiseConsulting/ad4fd1e185db72bcf02df9ad1d6168b6)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
