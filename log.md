@@ -623,6 +623,16 @@ Converting previous daily challenges into a board class. Then create a game clas
 
 -   [XML to JSON Gist](https://gist.github.com/devNoiseConsulting/ad4fd1e185db72bcf02df9ad1d6168b6)
 
+### Day 50, Jul 25, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** The challenge was to identify which of the six types are being used in a JSON object. Three of the six types will be identified as object. So then additional tests were needed to determine if we had an array or null type. To be complete I ended up call the function recursively, which lead to some problems. Object.keys() doesn't like when a null is passed in. Took a while to figure out which call was throwing the error. 
+
+**Link to work:**
+
+-   [Find JSON types Gist](https://gist.github.com/devNoiseConsulting/c698b95714c441633f17c15421b1baf9)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
