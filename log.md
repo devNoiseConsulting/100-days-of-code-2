@@ -627,11 +627,24 @@ Converting previous daily challenges into a board class. Then create a game clas
 
 **Today's Progress:** Daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** The challenge was to identify which of the six types are being used in a JSON object. Three of the six types will be identified as object. So then additional tests were needed to determine if we had an array or null type. To be complete I ended up call the function recursively, which lead to some problems. Object.keys() doesn't like when a null is passed in. Took a while to figure out which call was throwing the error. 
+**Thoughts:** The challenge was to identify which of the six types are being used in a JSON object. Three of the six types will be identified as object. So then additional tests were needed to determine if we had an array or null type. To be complete I ended up call the function recursively, which lead to some problems. Object.keys() doesn't like when a null is passed in. Took a while to figure out which call was throwing the error.
 
 **Link to work:**
 
 -   [Find JSON types Gist](https://gist.github.com/devNoiseConsulting/c698b95714c441633f17c15421b1baf9)
+
+### Day 51, Jul 26, 2017
+
+**Today's Progress:** Worked on Codecademy Code Challenge and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** In an effort to defect from projects I should be working on I started Codecademy's code challenge. The challenge is to figure out the different ways you can make change form an ammount and available denominations. I came up with solutions that return correct answers, the problem is that I don't return enough answers. The first pass would eliminate a denomination and find answers. The second attempt used a map to know the maximum quantity for each denomination. As it was finding answers it would decrement the the quantity of the first denomination used. This got closer to the correct number of answers.
+
+The daily programming challenge was pretty easy and straight forward. Just using JSON.stringify with arguments to make JSON pretty.
+
+**Link to work:**
+
+-   [Codecademy Code Challenge #16 Gist](https://gist.github.com/devNoiseConsulting/e09f3a3dcf6cdefc3ff86ddfbb30a559)
+-   [Format JSON Gist](https://gist.github.com/devNoiseConsulting/b1e00358b207b2d2a62e7c8ac5b142d8)
 
 <!--
 
