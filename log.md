@@ -646,6 +646,32 @@ The daily programming challenge was pretty easy and straight forward. Just using
 -   [Codecademy Code Challenge #16 Gist](https://gist.github.com/devNoiseConsulting/e09f3a3dcf6cdefc3ff86ddfbb30a559)
 -   [Format JSON Gist](https://gist.github.com/devNoiseConsulting/b1e00358b207b2d2a62e7c8ac5b142d8)
 
+### Day 52, Jul 26, 2017
+
+**Today's Progress:** Worked on Codecademy Code Challenge and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** In an effort to defect from projects I should be working on I started Codecademy's code challenge. The challenge is to figure out the different ways you can make change form an ammount and available denominations. I came up with solutions that return correct answers, the problem is that I don't return enough answers. The first pass would eliminate a denomination and find answers. The second attempt used a map to know the maximum quantity for each denomination. As it was finding answers it would decrement the the quantity of the first denomination used. This got closer to the correct number of answers.
+
+The daily programming challenge was pretty easy and straight forward. Just using JSON.stringify with arguments to make JSON pretty.
+
+**Link to work:**
+
+-   [Codecademy Code Challenge #16 Gist](https://gist.github.com/devNoiseConsulting/e09f3a3dcf6cdefc3ff86ddfbb30a559)
+-   [Format JSON Gist](https://gist.github.com/devNoiseConsulting/b1e00358b207b2d2a62e7c8ac5b142d8)
+
+### Day 53, Jul 27, 2017
+
+**Today's Progress:** Worked on Codecademy Code Challenge and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Spent a lot of time trying to figure out how to control decrementing denominations and reseting them. Was saving the the change amounts on a object. Quickly broke node as the object had to many attributes. To get around this I would a sum of the combinations when I was doing a reset. This kept the object to a more manageable size. Not sure my solution is correct. :(
+
+The daily programming challenge was pretty easy and straight forward. Just using JSON.stringify with arguments to make JSON pretty.
+
+**Link to work:**
+
+-   [Codecademy Code Challenge #16 Relp](https://repl.it/JmAe/0)
+-   [JSON path to target Gist](https://gist.github.com/devNoiseConsulting/07eeecbdde0361f8548b9f98e042109b)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
