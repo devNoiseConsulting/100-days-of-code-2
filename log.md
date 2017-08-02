@@ -672,6 +672,19 @@ The daily programming challenge was pretty easy and straight forward. Just using
 -   [Codecademy Code Challenge #16 Relp](https://repl.it/JmAe/0)
 -   [JSON path to target Gist](https://gist.github.com/devNoiseConsulting/07eeecbdde0361f8548b9f98e042109b)
 
+### Day 54, Aug 1, 2017
+
+**Today's Progress:** Getting back into the voting app project and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Let's be honest. Login, authentication and authorization for the voting app project has me in a bit of developer paralysis. I'm not sure what to do and how to do it. While I didn't get much coding done for this project, I broke the paralysis. I'm ignoring integration with external auth providers (ie social media). I'm going to make a users collection and authenticate the users off of it. Progress should be made tomorrow.
+
+The daily programming challenge was to take a number and rearrange the digits to make the next largest number. Crib a permutations solution from StackOverflow and started working on my solution. Once I had all the permutations, I needed to convert the subarrays into an integer. The following steps were to filter out all value less then the original number and a numeric sort of the remaining permutations. The first element should be the value desired.
+
+**Link to work:**
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/d0be595b1840730bda3e343fec27819eb05a2fe5)
+-   [Find Next Largest Number Gist](https://gist.github.com/devNoiseConsulting/48a572b6d4deb7829ecc2cc7bf9bcb1e)
+
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
