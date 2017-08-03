@@ -681,9 +681,22 @@ The daily programming challenge was pretty easy and straight forward. Just using
 The daily programming challenge was to take a number and rearrange the digits to make the next largest number. Crib a permutations solution from StackOverflow and started working on my solution. Once I had all the permutations, I needed to convert the subarrays into an integer. The following steps were to filter out all value less then the original number and a numeric sort of the remaining permutations. The first element should be the value desired.
 
 **Link to work:**
+
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/d0be595b1840730bda3e343fec27819eb05a2fe5)
 -   [Find Next Largest Number Gist](https://gist.github.com/devNoiseConsulting/48a572b6d4deb7829ecc2cc7bf9bcb1e)
 
+### Day 55, Aug 2, 2017
+
+**Today's Progress:** Getting back into the voting app project and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Procrastinating on project. Worked on app structure and trying to separate the login/signup routes to a separate file. Needed a refresher on how to use module.exports. For some reason I keep wanted to pluralize modules and then not do it for exports.
+
+The daily programming challenge was to take a string and remove the excess parentheses. This is one of those I can look at it and give you the answer. When I need to code it, I have no idea what the steps are. So I went with regex for the solution. I did a String.replace() on the smallest piece of text in parentheses, stored it in an array and replaced it with a numbered token. I kept doing this until the string didn't change. Next I looked to see if any of the values I stored where a numbered token in parentheses, which were removed. Finally I started to replace the numbered tokens with the stored values.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/12d0b00ce7d84f6cfbc94fe786804ca64884fcb3)
+-   [Remove Excess Parentheses Gist](https://gist.github.com/devNoiseConsulting/139ffe892adc5ee7ec38da9dd99f694b)
 
 <!--
 
