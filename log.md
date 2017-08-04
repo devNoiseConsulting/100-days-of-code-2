@@ -698,6 +698,19 @@ The daily programming challenge was to take a string and remove the excess paren
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/12d0b00ce7d84f6cfbc94fe786804ca64884fcb3)
 -   [Remove Excess Parentheses Gist](https://gist.github.com/devNoiseConsulting/139ffe892adc5ee7ec38da9dd99f694b)
 
+### Day 56, Aug 3, 2017
+
+**Today's Progress:** More route stubs and JWT for the voting app project and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Added a couple more route stubs for the poll branch of the API. Also testing to see if I could put these routes on the same base url as the login routes. Started playing around with JWT to handle the auth on the poll API calls.
+
+The daily programming challenge was to do the Threes game. Basically you mod 3 the number and see if you need to add or subtract 1 from the number before you divide it by 3. Decided to use recursion with a switch statement for the first solution. Since that was pretty straight forward, I created a second solution using a loop and ternary operators.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b9a866bff7004d0844c85232f82690e5945cde5d)
+-   [Threes Game Gist](https://gist.github.com/devNoiseConsulting/05ff2a789119721f948eb2781a92aaca)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
