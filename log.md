@@ -711,6 +711,31 @@ The daily programming challenge was to do the Threes game. Basically you mod 3 t
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b9a866bff7004d0844c85232f82690e5945cde5d)
 -   [Threes Game Gist](https://gist.github.com/devNoiseConsulting/05ff2a789119721f948eb2781a92aaca)
 
+### Day 57, Aug 4, 2017
+
+**Today's Progress:** Cookies and Mongoose for the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Seems like cookie-parser is the preferred way to handle cookies in
+express. Trying to figure out how I’m going to access mongo when I break stuff
+out into a lot of separate files. Leads me to start using Mongoose.
+
+Daily challenge was to test the if strings passed in are a pangram. Bonus was also to report the letter with the highest frequency. So convert to lowercase, strip out any non letters, split and increment array element for letter. Filter out any element with a value of 0. Is the array length still 26 then pangram. Run a reduce over the array to find highest frequency, by saving letter and ammount.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/e754965d93b54b24583dba9e316aaf4d392d71eb)
+-   [Test For Pangram Gist](https://gist.github.com/devNoiseConsulting/39ec29f9a6980513005f4c2239e87228)
+
+### Day 58, Aug 5, 2017
+
+**Today's Progress:**  More Mongoose for the Voting App.
+
+**Thoughts:** Trying to get the server to start now that Mongoose is the library to communicate with MongoDB. Of course everything is depreciated and have to keep searching for the changes that will make it work.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/85b360a4ee1221eb6722e99811278def55b18fc4)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
