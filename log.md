@@ -728,13 +728,25 @@ Daily challenge was to test the if strings passed in are a pangram. Bonus was al
 
 ### Day 58, Aug 5, 2017
 
-**Today's Progress:**  More Mongoose for the Voting App.
+**Today's Progress:** More Mongoose for the Voting App.
 
 **Thoughts:** Trying to get the server to start now that Mongoose is the library to communicate with MongoDB. Of course everything is depreciated and have to keep searching for the changes that will make it work.
 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/85b360a4ee1221eb6722e99811278def55b18fc4)
+
+### Day 59, Aug 6, 2017
+
+**Today's Progress:** Signup API call for the Voting App.
+
+**Thoughts:** More Mongoose Schema work to create the User object. Scanned through a lot of blog posts/tutorials to find the code combination I needed. Added the body-parser package so I can read the data posted to the signup API call. Using the Postman app to test out the API call. Ran into some issues around how the data was posted to the API.
+
+As usual, making changed to the code to avoid the depreciated warnings. 
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/002bd1f094d593f230c720475fcc4fd69a87e259)
 
 <!--
 
