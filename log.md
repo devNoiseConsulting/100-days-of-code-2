@@ -742,11 +742,24 @@ Daily challenge was to test the if strings passed in are a pangram. Bonus was al
 
 **Thoughts:** More Mongoose Schema work to create the User object. Scanned through a lot of blog posts/tutorials to find the code combination I needed. Added the body-parser package so I can read the data posted to the signup API call. Using the Postman app to test out the API call. Ran into some issues around how the data was posted to the API.
 
-As usual, making changed to the code to avoid the depreciated warnings. 
+As usual, making changed to the code to avoid the depreciated warnings.
 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/002bd1f094d593f230c720475fcc4fd69a87e259)
+
+### Day 60, Aug 7, 2017
+
+**Today's Progress:** Cookies Tokens for the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Debugging issues that came up while trying to put a JWT inside a cookie. First issue was that I wasn't getting the JSON data from Postman. Turns out I had the wrong order for bodyParser middleware. JSON should be after the urlencoded. Second issue was that my tokens didn't have any data. Took me a while to see that the token was the same between signups. Turns out I was using the wrong object to populate the token.
+
+The daily programming challenge was pretty straight forward. Initialize a 2D array and then iterate over the letters in the word passed in. In the iteration, I had 4 statements that would place a letter on each side of the box. A couple pass here to get all the sides right. A map and a join merged the array in a multiline string.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/446152ff0870e648534c74f112f575c6a8d65213)
+-   [Word Box Gist](https://gist.github.com/devNoiseConsulting/ce04d4bf335644f46c5f4217f34471e8)
 
 <!--
 
