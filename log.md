@@ -761,6 +761,29 @@ The daily programming challenge was pretty straight forward. Initialize a 2D arr
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/446152ff0870e648534c74f112f575c6a8d65213)
 -   [Word Box Gist](https://gist.github.com/devNoiseConsulting/ce04d4bf335644f46c5f4217f34471e8)
 
+### Day XX, Aug 8, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Didn't really finish my hour of code for the day. I did work on the daily programming challenge which built on the challenge from Monday. So the challenge was to also take 2 numeric arguments that indicate the size of the box to print. Plan was to take multiple boxes and concat them together. Issues with that is the boxes had a shared side. So the additional boxes would have to have 1 or 2 sides removed before doing the concat.
+
+**Link to work:**
+
+-   [Print Word Boxes Gist](https://gist.github.com/devNoiseConsulting/d839c1c60be9cca10ca4b3de1e9484b8)
+
+### Day 61, Aug 9, 2017
+
+**Today's Progress:** Login API and Cookies for the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Worked on completing the login API call. Looked at a couple example articles/tutorials to figure out my methodology. Went with a promised base approach. Used a .findOne() call to get a User object to see if the correct password was given. Needed to tweak the User.comparePassword() so that it sends the user object to the callback function. This was needed so a JWT could include some of the user information. All of this was wrapped with checks to send back an error message if there were any issues.
+
+The daily programming challenge was pretty straight forward. Working off the previous word boxes we needed to create a word triangle. Took a couple passes to get all of the side in the correct orientation. Once that was done, created a wrapper function which would determine if a box or triangle should be used.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/bc89834eeca5febf02c84333f3c708d38c27494c)
+-   [Print Word (Box or Triangle) Gist](https://gist.github.com/devNoiseConsulting/deea9ef184d6b00a4a1314d6c9bfccfb)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
