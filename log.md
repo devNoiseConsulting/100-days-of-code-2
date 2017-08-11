@@ -784,6 +784,19 @@ The daily programming challenge was pretty straight forward. Working off the pre
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/bc89834eeca5febf02c84333f3c708d38c27494c)
 -   [Print Word (Box or Triangle) Gist](https://gist.github.com/devNoiseConsulting/deea9ef184d6b00a4a1314d6c9bfccfb)
 
+### Day 62, Aug 10, 2017
+
+**Today's Progress:** Adding some auth check code to the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Need to restrict access to a couple of the poll API calls. Accomplished this by adding a authCheck function to the necessary routes. Have been using the Postman App to debug these API calls. Ran into a nasty error when I corrupted the AuthToken cookie. Needed to put in a try catch block to avoid have the express server blow up and send the wrong thing.
+
+The daily programming challenge was to accept a number and then return the nearest prime numbers. In the case that someone passes in a prime number, just return 'prime'. Did a quick scan of StackOverflow to find a small function to determine if a number is prime. From there I wrote the functions that would find the prime below and above the number given. This was a brute force method to check every number until a prime was found. I put in some bounds like sqrt and square of the number. In truth, those bounds are not important as the function will return a value before the loop reaches the bounds.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/e93a329070d8457806cbbbc26273c27dc7ef5bae)
+-   [Find Nearest Primes Gist](https://gist.github.com/devNoiseConsulting/fadbc5edb037e6910c1406a0401fe62b)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
