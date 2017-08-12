@@ -797,6 +797,19 @@ The daily programming challenge was to accept a number and then return the neare
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/e93a329070d8457806cbbbc26273c27dc7ef5bae)
 -   [Find Nearest Primes Gist](https://gist.github.com/devNoiseConsulting/fadbc5edb037e6910c1406a0401fe62b)
 
+### Day 63, Aug 11, 2017
+
+**Today's Progress:** New API call to create polls for the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Worked on the newpoll api for creating polls. Had to do some research into how express would handle array data from the HTML Post. With a few tests via the Postman app, I set about using the Poll schema object. Made some minor changes to the schema. Ran into some problem with my authCheck function. Made a bad assumption that using the next callback function would stop any other code in authCheck from running. Not true and ending up sending multiple responses back. Moved the failed response into the catch section so it only runs when the token is corrupted.
+
+The daily programming challenge was to find the nearest number to a square root with the precision passed in as an argument. Used a Math.pow() on the precision to give me an exponent to multiple the square root by before I truncated the number and then divided by the exponent.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/3c4486a1ca14d2989c09f74c1fb77719a52a43d7)
+-   [Find Nearest Num Gist](https://gist.github.com/devNoiseConsulting/193aca4d9a8cb2f3b197878a50e1b59c)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
