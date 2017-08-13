@@ -810,6 +810,19 @@ The daily programming challenge was to find the nearest number to a square root 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/3c4486a1ca14d2989c09f74c1fb77719a52a43d7)
 -   [Find Nearest Num Gist](https://gist.github.com/devNoiseConsulting/193aca4d9a8cb2f3b197878a50e1b59c)
 
+
+### Day 64, Aug 12, 2017
+
+**Today's Progress:** New API calls to create polls for the Voting App.
+
+**Thoughts:** Worked on the get poll and delete poll API calls. The get poll call was similar to the user login call. Just stripped out the code to check the password before sending the object. Didn't like some of the low level properties that mongo puts on the object. So I added a toClient() function to the poll object that would remove those properties. This way the client app gets a sanitized object to work with.
+
+I implemented a delete call, but as I'm writing this log, I didn't put in enough security checks. I have the initial authCheck to see if the user is logged in. This check doesn't prevent the user from deleting the wrong array. Off the top of my head, may need to add another parameter given to the remove() function so that we pass in the auth email. This should prevent a non owner from deleting a poll. Otherwise I'll have to pull the document out of Mongo and check if the user is the owner. Work for tomorrow.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/4ba21658280c4aa99a983aa4c4ddc8825f1fcee1)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
