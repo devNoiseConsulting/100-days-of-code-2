@@ -823,6 +823,18 @@ I implemented a delete call, but as I'm writing this log, I didn't put in enough
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/4ba21658280c4aa99a983aa4c4ddc8825f1fcee1)
 
+### Day 65, Aug 13, 2017
+
+**Today's Progress:** Fixed the delete poll API for the Voting App.
+
+**Thoughts:** What exactly is a CommandResult? Trying to use promises on all the Mongoose Schema calls. The promise from the remove() function is a CommandResult and I can't seem to find the docs to tell me what I should be looking at. Dumping it out via console.log(). Looks like I need to check CommandResult.result.n to see how many documents are removed. By checking this I can tell inform the user the correct result of their request. With these changes, I believe the deletePoll API should be finished.
+
+Also worked on the recordPollVote. Copied the getPoll function to start with and then added in the code to update the document. I ran with a .map() to go over the choices and find the one the user selected. I think I could have just used the choice parameter to acess the choies array element, but wanted to verify that the element's id matched the choice.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/d0fd4b2d7c6a34ffa021591a2a8fea4d0bd36718)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
