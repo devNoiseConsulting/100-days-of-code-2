@@ -835,6 +835,20 @@ Also worked on the recordPollVote. Copied the getPoll function to start with and
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/d0fd4b2d7c6a34ffa021591a2a8fea4d0bd36718)
 
+### Day 66, Aug 14, 2017
+
+**Today's Progress:** Created the addPollChoice API call for the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Worked on the addPollChoice. Cribbed from the recordPollVote and replaced the vote update with the new choice update. This mostly consisted of a reduce to find the highest choice id and then a push of the new choice object.
+
+The daily programming challenge was to download a list of words from a URL and count words of a certain size. My solution was a combination of an answer found on StackOverflow and the Node.js docs for http.get(). Just concatenated on the 'data' calls and waited till the 'end' call to do the work. Took all the data and split it into a word array. Setup a size array to handle the min and max sizes that I wanted to group and used that to filter the word list. What was left would give me the count I needed. 
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/ee81777e98a41ec69d61ae7b1d7e08bf115425fb)
+-   [Read List And Get Word Counts Gist](https://gist.github.com/devNoiseConsulting/f57c1057ae398e734b6a4db959466b7d)
+
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
