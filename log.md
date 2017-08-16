@@ -810,7 +810,6 @@ The daily programming challenge was to find the nearest number to a square root 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/3c4486a1ca14d2989c09f74c1fb77719a52a43d7)
 -   [Find Nearest Num Gist](https://gist.github.com/devNoiseConsulting/193aca4d9a8cb2f3b197878a50e1b59c)
 
-
 ### Day 64, Aug 12, 2017
 
 **Today's Progress:** New API calls to create polls for the Voting App.
@@ -841,13 +840,26 @@ Also worked on the recordPollVote. Copied the getPoll function to start with and
 
 **Thoughts:** Worked on the addPollChoice. Cribbed from the recordPollVote and replaced the vote update with the new choice update. This mostly consisted of a reduce to find the highest choice id and then a push of the new choice object.
 
-The daily programming challenge was to download a list of words from a URL and count words of a certain size. My solution was a combination of an answer found on StackOverflow and the Node.js docs for http.get(). Just concatenated on the 'data' calls and waited till the 'end' call to do the work. Took all the data and split it into a word array. Setup a size array to handle the min and max sizes that I wanted to group and used that to filter the word list. What was left would give me the count I needed. 
+The daily programming challenge was to download a list of words from a URL and count words of a certain size. My solution was a combination of an answer found on StackOverflow and the Node.js docs for http.get(). Just concatenated on the 'data' calls and waited till the 'end' call to do the work. Took all the data and split it into a word array. Setup a size array to handle the min and max sizes that I wanted to group and used that to filter the word list. What was left would give me the count I needed.
 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/ee81777e98a41ec69d61ae7b1d7e08bf115425fb)
 -   [Read List And Get Word Counts Gist](https://gist.github.com/devNoiseConsulting/f57c1057ae398e734b6a4db959466b7d)
 
+### Day 67, Aug 15, 2017
+
+**Today's Progress:** Ran through Codecademy's Learn ReactJS: Part I and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Received an email that the React course on Codecademy has received an update because things are being depreciated. I ran into a bit of this when I was trying to do some of my freeCodeCamp projects. Mostly understand moving the components to ES6 classes. So I decided to go through the course again before I start writing the React front end to the voting app.
+
+The daily programming challenge built off of yesterday's challenge. So I was able to recycle a bit of code and then focus on getting the solution. Since that was pretty easy, I then looked into a way to handle the http.get response via a promise. Cribbed a function from an blog article I found. Then I copied the code that did the real work into a function. This function was called from in the then() portion of the promise. While this code all works, I'm not sure how I passed back the final data from inside the promise. :/
+
+**Link to work:**
+
+-   [Codecademy Achievements](https://www.codecademy.com/users/flynnmj/achievements)
+-   [Codecademy Profile](https://www.codecademy.com/flynnmj)
+-   [Get Words Of SameLength And Root Gist](https://gist.github.com/devNoiseConsulting/6df26b37ddc71335c2230959d555ab8c)
 
 <!--
 
