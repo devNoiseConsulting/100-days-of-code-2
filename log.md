@@ -861,6 +861,20 @@ The daily programming challenge built off of yesterday's challenge. So I was abl
 -   [Codecademy Profile](https://www.codecademy.com/flynnmj)
 -   [Get Words Of SameLength And Root Gist](https://gist.github.com/devNoiseConsulting/6df26b37ddc71335c2230959d555ab8c)
 
+### Day 68, Aug 16, 2017
+
+**Today's Progress:** Started Codecademy's Learn ReactJS: Part II and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** More of Codecademy's ReactJS courses. Learning about stateful and stateless components. Not so sure about the updating siblings pattern. I just think about it as the parent/child pattern. You just have multiple child components that are stateless and use the same props from the parent.
+
+The daily programming challenge built off of yesterday's challenge. Reusing a lot of the same based code for this week challenges. Thus I replaced the filterWords function with the requirements of the challenge. Made a big conditional that matched word length or matched word length plus one and begins with the same 2 letters.
+
+**Link to work:**
+
+-   [Codecademy Achievements](https://www.codecademy.com/users/flynnmj/achievements)
+-   [Codecademy Profile](https://www.codecademy.com/flynnmj)
+-   [Get Similar Words Gist](https://gist.github.com/devNoiseConsulting/4a1d27c668c3664c8afa8bfe2a0b9cc0)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
