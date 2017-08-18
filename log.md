@@ -875,6 +875,20 @@ The daily programming challenge built off of yesterday's challenge. Reusing a lo
 -   [Codecademy Profile](https://www.codecademy.com/flynnmj)
 -   [Get Similar Words Gist](https://gist.github.com/devNoiseConsulting/4a1d27c668c3664c8afa8bfe2a0b9cc0)
 
+### Day 69, Aug 17, 2017
+
+**Today's Progress:** Finished Codecademy's Learn ReactJS: Part II and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** It's to late to journal. Finished the Codecademy course. 
+
+The daily programming challenge built off of yesterday's challenge. Similar challenge where I need to filter on word size or word size plus 1. The new part to the challenge was that the words needed to be sorted. The sort with a bit involved since we have to figure out the letter frequency in the word list and then sort based off of a frequency score.
+
+**Link to work:**
+
+-   [Codecademy Achievements](https://www.codecademy.com/users/flynnmj/achievements)
+-   [Codecademy Profile](https://www.codecademy.com/flynnmj)
+-   [Get Similar Words By Frequency Gist](https://gist.github.com/devNoiseConsulting/635368f20743f1f15278107c1d25c375)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
