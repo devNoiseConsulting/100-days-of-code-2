@@ -879,7 +879,7 @@ The daily programming challenge built off of yesterday's challenge. Reusing a lo
 
 **Today's Progress:** Finished Codecademy's Learn ReactJS: Part II and daily programming challenge from the PhillyDev Slack.
 
-**Thoughts:** It's to late to journal. Finished the Codecademy course. 
+**Thoughts:** It's to late to journal. Finished the Codecademy course.
 
 The daily programming challenge built off of yesterday's challenge. Similar challenge where I need to filter on word size or word size plus 1. The new part to the challenge was that the words needed to be sorted. The sort with a bit involved since we have to figure out the letter frequency in the word list and then sort based off of a frequency score.
 
@@ -888,6 +888,39 @@ The daily programming challenge built off of yesterday's challenge. Similar chal
 -   [Codecademy Achievements](https://www.codecademy.com/users/flynnmj/achievements)
 -   [Codecademy Profile](https://www.codecademy.com/flynnmj)
 -   [Get Similar Words By Frequency Gist](https://gist.github.com/devNoiseConsulting/635368f20743f1f15278107c1d25c375)
+
+### Day 70, Aug 18, 2017
+
+**Today's Progress:** Using the Free Weekend at Code School to learn Elixir and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Completed the "Try Elixir" course. Turns out it was already free. Still want to use semicolon to finish a line of code.
+
+The daily programming challenge built off of the other challenge of the week. Given a word, find the best suggestions from the word list. I came up with 3 criteria to filter the word list. Has to start with the same letter. Needs to have about half of the letters in common with the original word. Word length needs to be about the same. With this filtered set of words, I then used the letter frequency sort to find the best three suggestions.
+
+**Link to work:**
+
+-   [Code School Report Card](https://www.codeschool.com/users/devNoise)
+-   [Get Spelling Suggestion Gist](https://gist.github.com/devNoiseConsulting/7059fa8e7c6518d238e0ad786a3bfbde)
+
+### Day 71, Aug 19, 2017
+
+**Today's Progress:** Using the Free Weekend at Code School to learn Elixir.
+
+**Thoughts:** Moving on to the "Mixing It Up With Elixir" course. Completed about 3 sections out of 5.
+
+**Link to work:**
+
+-   [Code School Report Card](https://www.codeschool.com/users/devNoise)
+
+### Day 72, Aug 20, 2017
+
+**Today's Progress:** Using the Free Weekend at Code School to learn Elixir and some BootStrap.
+
+**Thoughts:** Finished up the last 2 sections of "Mixing It Up With Elixir" course. Elixir seems a bit structured, not sure how to do quick little scripts without making whole project. Also ran through the "Blasting Off with Bootstrap" course. Mostly a refresher on Bootstrap v3.
+
+**Link to work:**
+
+-   [Code School Report Card](https://www.codeschool.com/users/devNoise)
 
 <!--
 
