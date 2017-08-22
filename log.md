@@ -922,6 +922,16 @@ The daily programming challenge built off of the other challenge of the week. Gi
 
 -   [Code School Report Card](https://www.codeschool.com/users/devNoise)
 
+### Day 73, Aug 21, 2017
+
+**Today's Progress:** Created the getPolls API call for the Voting App
+
+**Thoughts:** Back to work on the Voting App API after doing some courses at Codecademy and Code School. Did some searching to see how to make parameters optional. After I saw a comment about REST API conventions, I ditched the optional parameters thoughts and standardized the calls. Also saw a link to the mongoose-pagination module, which seemed like something useful. Added that plugin to the Poll schema and then used it in the getPolls. With the getPolls API call done, the API should be complete until the React based client starts using it.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b11fc50775d4d0bea0d2ff7b4c7772a30dd62057)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
