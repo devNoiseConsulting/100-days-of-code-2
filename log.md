@@ -932,6 +932,18 @@ The daily programming challenge built off of the other challenge of the week. Gi
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b11fc50775d4d0bea0d2ff7b4c7772a30dd62057)
 
+### Day 74, Aug 22, 2017
+
+**Today's Progress:** Mostly documenting the Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Getting the docs updated to reflect the recent changes to the API for the Voting App. Also worked a bit with Postman to get all the test calls saved.
+
+The daily programming challenge was to test if a number given would be cubes to make a building. The problem was worded along the lines of N^3 ... 1^3. But for the solution it made more sense to go 1^3 ... N^3. Where N is the answer we need to return. Since I just completed the Elixir courses at Code School, I use the language to solve the problem. I think my Elixir code was ok, wasn't sure if I was using to many variables. Biggest problem was running it. IO.Puts is not the same as IO.puts. In fact, IO.Puts doesn't exist and causes my run statement to throw an error.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/ffa24fc8a87c0f633562883ede27fdc079b0d440)
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
