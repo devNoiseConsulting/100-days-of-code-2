@@ -943,6 +943,19 @@ The daily programming challenge was to test if a number given would be cubes to 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/ffa24fc8a87c0f633562883ede27fdc079b0d440)
+-   [Find Building Levels Gist](https://gist.github.com/devNoiseConsulting/9f380485371ad5ff4f2fab9cc4cc2636)
+
+### Day 75, Aug 23, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Elixir kicked my butt. Grant I just started with the language, but I'm so not used to the storage of data. I was able to work on getting the user input for the rectangles and parse the information into a plain list. At this point my knowledge of Elixir was at it's limit and searching didn't give me any good answers. Having spent an hour to get this far and not seeing a light at the end of the tunnel, I fell back to Javascript.
+
+Quick find/grep throug h some older daily programming tasks, I got a refresher on using readline to get user input. Got working code pretty quickly and then realized that logic was wrong. Originally, I was trying to keep the rectangle points together. After some quick sketching on paper, I got a handle on the geometry. Got all the right points extracted into a new triangle that I could calculate the area of. Took a lot longer than I expected.
+
+**Link to work:**
+
+-   [Find Area of Rectangle Overlap Gist](https://gist.github.com/devNoiseConsulting/a2859ad828aa760596002b481be8204c)
 
 <!--
 
