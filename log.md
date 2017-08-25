@@ -951,11 +951,25 @@ The daily programming challenge was to test if a number given would be cubes to 
 
 **Thoughts:** Elixir kicked my butt. Grant I just started with the language, but I'm so not used to the storage of data. I was able to work on getting the user input for the rectangles and parse the information into a plain list. At this point my knowledge of Elixir was at it's limit and searching didn't give me any good answers. Having spent an hour to get this far and not seeing a light at the end of the tunnel, I fell back to Javascript.
 
-Quick find/grep throug h some older daily programming tasks, I got a refresher on using readline to get user input. Got working code pretty quickly and then realized that logic was wrong. Originally, I was trying to keep the rectangle points together. After some quick sketching on paper, I got a handle on the geometry. Got all the right points extracted into a new triangle that I could calculate the area of. Took a lot longer than I expected.
+Quick find/grep through some older daily programming tasks, I got a refresher on using readline to get user input. Got working code pretty quickly and then realized that logic was wrong. Originally, I was trying to keep the rectangle points together. After some quick sketching on paper, I got a handle on the geometry. Got all the right points extracted into a new triangle that I could calculate the area of. Took a lot longer than I expected.
 
 **Link to work:**
 
 -   [Find Area of Rectangle Overlap Gist](https://gist.github.com/devNoiseConsulting/a2859ad828aa760596002b481be8204c)
+
+
+### Day 76, Aug 24, 2017
+
+**Today's Progress:** Developer paralysis on Voting App and Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Trying to figure out how I should start the react portion of the Voting app.
+
+The daily programing wasn't as tricky today, doing anagrams again. Didn't really check any old challenges to figure this one out. Basically go lowercase, strip out spaces, split, sort, join and compare. Since the validation require the original phrases to be output all work had to be stored in new variables. Personally, would have had the function return a boolean instead of a sentence.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/a4fc78eca96863723508cf5596c8d3f6aaf48dae)
+-   [Test If Anagram Gist](https://gist.github.com/devNoiseConsulting/85a8cceb303c3e6d126242de58bf939b)
 
 <!--
 
