@@ -971,6 +971,30 @@ The daily programing wasn't as tricky today, doing anagrams again. Didn't really
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/a4fc78eca96863723508cf5596c8d3f6aaf48dae)
 -   [Test If Anagram Gist](https://gist.github.com/devNoiseConsulting/85a8cceb303c3e6d126242de58bf939b)
 
+### Day XX, Aug 25, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Didn't really finish my hour of code for the day. I did work on the daily programming challenge. Need to find the alliterative words in a sentence. Used a regex strip out the period and commas. To minimize after the reduce code, I added a termination string to the sentence. Inside the reduce, the code checks if the first letter matches and puts on an array. If it doesn't match then save the set if we have 2 elements. Also reset the array with the current word.
+
+**Link to work:**
+
+-   [Find Alliteration Gist](https://gist.github.com/devNoiseConsulting/e3e010fc87a88dcaf0f009c60b9c5fe0)
+
+### Day 77, Aug 28, 2017
+
+**Today's Progress:** Started login component for Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Starting to get back to working on the Voting App. Getting back to the front end and working on a Login compoent. Ran into some issues with getting the input working.
+
+The daily programming challenge was to test a latin square. Two parameters passed in the size of the square and the data to fill it. Made a array of the size and gave it a default value so the map function will work. The map was to take slices of the data so I ended up with a 2d array. I then tested the rows by sorting them and making sure we had unique numbers that are less than the size. Transposed the square so I could just run the columns through the same test as the rows. The column and row tests were concatenated together and reduced to a single boolean.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/81909b5800b31b56a86d20a60e2bbeeda1175073)
+-   [Is Latin Square Gist](https://gist.github.com/devNoiseConsulting/6d14f00bca8adddf7d17b855214a9197)
+
+
 <!--
 
 ### Day 0: February 30, 2016 (Example 1)
