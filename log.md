@@ -994,6 +994,51 @@ The daily programming challenge was to test a latin square. Two parameters passe
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/81909b5800b31b56a86d20a60e2bbeeda1175073)
 -   [Is Latin Square Gist](https://gist.github.com/devNoiseConsulting/6d14f00bca8adddf7d17b855214a9197)
 
+### Day XX, Aug 29, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Given a set of coordinates, how many moves would it take a knight to get there from 0,0. Failed in my attempt to use recursion, fell back to using a while loop. This made it more of a breath first search. To cut down on number of spots to check I JSON encoded the points and put them in a Set and then converted the Set back to an array.
+
+It seemed like you could do this problem recursively. Maybe if I had a global variable to keep track of what I’ve tested it would have worked that way.
+
+**Link to work:**
+
+-   [Move Knight To Location Gist](https://gist.github.com/devNoiseConsulting/43b8db3fddc85f3d8cb5aa0744e9519b)
+
+## Day 78, Aug 30, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Taking a normal math equation and converting it to RPN. At first I tried to see if I could get regex to handle it, but that was a dead end. Ending up looking at some Java code so I could see what I needed to do in JS. So I needed two stacks, one to hold the output and the other to hold the operators we need to use later. So numbers always go on the output stack. Push only the previous operator if present onto output. If inside parentheses, push all operators until left parentheses.
+
+**Link to work:**
+
+-   [RPN Converter Gist](https://gist.github.com/devNoiseConsulting/3d90b0b70a5cdf627483da352fe13225)
+
+### Day XX, Aug 31, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Solving RPN is a lot easier than converting to it. Put numbers on the stack. When an operator is reached, pop off 2 values from the stack. These values get saved into variables since order is important, you can't just pop them off into the operation. The challenge require the support of the factorial operator. Unlike all other operations, factorial only requires 1 number off the stack. So I push the variable I didn't need back on the stack before pushing the factorial. I was concerned then this might break the JS if the first operation was a factorial. Wasn't sure how pushing a null value onto the stack would affect the array. Test case show it wasn't a problem.
+
+**Link to work:**
+
+-   [Solve RPN Gist](https://gist.github.com/devNoiseConsulting/f82d60bf36a162739b892e526518ce5b)
+
+### Day 79, Sep 1, 2017
+
+**Today's Progress:** Trying to add react-router-dom to Voting App and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Some days I feel like React is a bit like Backbone. It gets you started, then you need to find other libraries that cover what it doesn't handle. The login example I was following got to confusing on how it handles state. This led me to install react-router-dom to get some stucture to the app. This end up with a `A <Router> may have only one child element` error that I'm not sure how to fix.
+
+The daily programming challenge was to identify and convert hex numbers to decimal. We had done something like this in the past, but I didn't bother to look for it until I had a working solution. I went with some regex to identify a hex number and convert it. I was using Number() to make the conversion. This requires that the hex number starts with `0x`, so I added another replace before the replace conversion to make sure the hex number is properly formatted. Looking back I found that I had used `parseInt(n, 16)` to make the conversion. 
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/f6f054d487a1ec2b47027c5ca084d202235345eb)
+-   [Find and convert hex in text Gist](https://gist.github.com/devNoiseConsulting/a82af7a2ee47f68001b6e732276ff41f)
+
 
 <!--
 
