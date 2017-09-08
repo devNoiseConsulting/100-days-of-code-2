@@ -1053,7 +1053,6 @@ The daily programming task was to test if a word is in alphabetical order. The f
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b82545f78c4f26514d5ae0f47915f7f506a1693a)
 -   [Is Alphabetical Gist](https://gist.github.com/devNoiseConsulting/42307bf4ace2fc54b321b49b18303c9a)
 
-
 ### Day 81, Sep 6, 2017
 
 **Today's Progress:** Daily programming challenge from the PhillyDev Slack.
@@ -1063,6 +1062,19 @@ The daily programming task was to test if a word is in alphabetical order. The f
 **Link to work:**
 
 -   [Longest Zig Zag Sequence Gist](https://gist.github.com/35ddbb6e10b8a3afd969aa03e55c98e3)
+
+### Day 82, Sep 7, 2017
+
+**Today's Progress:** Fixing API call from client and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Working on why the client code keeps getting a 403 error when trying to use the Login API. Did some searching to find an answer. Ended up on StackOverflow and found a [question](https://stackoverflow.com/questions/29775797/fetch-post-json-data) that matched up with my problem. I wasn't really doing anything with my headers. Turns out that I wasn't setting the Content-Type and thus not letting the Express.js app know that it needs to parse the body of the request. Only two lines of code changed, but it took me a while to debug a solution.
+
+ After the beat down I received from the daily programming challenge, today's challenge was much easier to work out. Given an array of numbers return an array of the prime numbers that are factors. To do this I calculated all the prime numbers less that the max number given. These prime numbers are tested as factors of given numbers. The array of prime factors has duplicates so they need to be filtered out.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/208036361a5d26dbaaa0f8c85e92dcdba7d40765)
+-   [Get Prime Factors Gist](https://gist.github.com/devNoiseConsulting/9673c69d788555e97410ec237d4bd43e)
 
 <!--
 
