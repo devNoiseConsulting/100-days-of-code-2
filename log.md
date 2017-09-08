@@ -1032,13 +1032,27 @@ It seemed like you could do this problem recursively. Maybe if I had a global va
 
 **Thoughts:** Some days I feel like React is a bit like Backbone. It gets you started, then you need to find other libraries that cover what it doesn't handle. The login example I was following got to confusing on how it handles state. This led me to install react-router-dom to get some stucture to the app. This end up with a `A <Router> may have only one child element` error that I'm not sure how to fix.
 
-The daily programming challenge was to identify and convert hex numbers to decimal. We had done something like this in the past, but I didn't bother to look for it until I had a working solution. I went with some regex to identify a hex number and convert it. I was using Number() to make the conversion. This requires that the hex number starts with `0x`, so I added another replace before the replace conversion to make sure the hex number is properly formatted. Looking back I found that I had used `parseInt(n, 16)` to make the conversion. 
+The daily programming challenge was to identify and convert hex numbers to decimal. We had done something like this in the past, but I didn't bother to look for it until I had a working solution. I went with some regex to identify a hex number and convert it. I was using Number() to make the conversion. This requires that the hex number starts with `0x`, so I added another replace before the replace conversion to make sure the hex number is properly formatted. Looking back I found that I had used `parseInt(n, 16)` to make the conversion.
 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/f6f054d487a1ec2b47027c5ca084d202235345eb)
 -   [Find and convert hex in text Gist](https://gist.github.com/devNoiseConsulting/a82af7a2ee47f68001b6e732276ff41f)
 
+### Day 80, Sep 5, 2017
+
+**Today's Progress:** Started getting my React Component talking to the API and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Play catch up with my log, this entry is a little late. Fixed my problem (`A <Router> may have only one child element`) with the React Router. Looks like I need to add a `Switch` element around the `Route` elements. I swear that was not in the simple example I saw on the website the first time I started doing this. Started on getting the Client code to login into the API.
+
+Using the fetch call to log the user in, this will cause compatibility problems with older browsers. May think about a polyfill at a later, if it is a real issue. The API doesn’t seem to like how the data is sent and always get back a 403 error. Don't seem to have a problem when using Postman to test the API call. Will figure this out later.
+
+The daily programming task was to test if a word is in alphabetical order. The first pass at this was to split the word into an array and test all the letters. This was all in a reduce that returned an object about the words order (ie alphabetical or reverse). After seeing some other solutions I realized that I just need to compare the transformed word with itself. 
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b82545f78c4f26514d5ae0f47915f7f506a1693a)
+-   [Is Alphabetical Gist](https://gist.github.com/devNoiseConsulting/42307bf4ace2fc54b321b49b18303c9a)
 
 <!--
 
