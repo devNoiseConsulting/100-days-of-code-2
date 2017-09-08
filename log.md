@@ -957,7 +957,6 @@ Quick find/grep through some older daily programming tasks, I got a refresher on
 
 -   [Find Area of Rectangle Overlap Gist](https://gist.github.com/devNoiseConsulting/a2859ad828aa760596002b481be8204c)
 
-
 ### Day 76, Aug 24, 2017
 
 **Today's Progress:** Developer paralysis on Voting App and Daily programming challenge from the PhillyDev Slack.
@@ -1047,12 +1046,23 @@ The daily programming challenge was to identify and convert hex numbers to decim
 
 Using the fetch call to log the user in, this will cause compatibility problems with older browsers. May think about a polyfill at a later, if it is a real issue. The API doesn’t seem to like how the data is sent and always get back a 403 error. Don't seem to have a problem when using Postman to test the API call. Will figure this out later.
 
-The daily programming task was to test if a word is in alphabetical order. The first pass at this was to split the word into an array and test all the letters. This was all in a reduce that returned an object about the words order (ie alphabetical or reverse). After seeing some other solutions I realized that I just need to compare the transformed word with itself. 
+The daily programming task was to test if a word is in alphabetical order. The first pass at this was to split the word into an array and test all the letters. This was all in a reduce that returned an object about the words order (ie alphabetical or reverse). After seeing some other solutions I realized that I just need to compare the transformed word with itself.
 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/b82545f78c4f26514d5ae0f47915f7f506a1693a)
 -   [Is Alphabetical Gist](https://gist.github.com/devNoiseConsulting/42307bf4ace2fc54b321b49b18303c9a)
+
+
+### Day 81, Sep 6, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** This seems similar to one we've attempted before. I can calculate the zig zag sequence for a given array. What I have a problem with is dropping elements to see if the sequence size will increase.  I tried to use recursion to drop an element, but it takes to long to calculate.
+
+**Link to work:**
+
+-   [Longest Zig Zag Sequence Gist](https://gist.github.com/35ddbb6e10b8a3afd969aa03e55c98e3)
 
 <!--
 
