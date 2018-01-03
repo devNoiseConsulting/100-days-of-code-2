@@ -1069,12 +1069,83 @@ The daily programming task was to test if a word is in alphabetical order. The f
 
 **Thoughts:** Working on why the client code keeps getting a 403 error when trying to use the Login API. Did some searching to find an answer. Ended up on StackOverflow and found a [question](https://stackoverflow.com/questions/29775797/fetch-post-json-data) that matched up with my problem. I wasn't really doing anything with my headers. Turns out that I wasn't setting the Content-Type and thus not letting the Express.js app know that it needs to parse the body of the request. Only two lines of code changed, but it took me a while to debug a solution.
 
- After the beat down I received from the daily programming challenge, today's challenge was much easier to work out. Given an array of numbers return an array of the prime numbers that are factors. To do this I calculated all the prime numbers less that the max number given. These prime numbers are tested as factors of given numbers. The array of prime factors has duplicates so they need to be filtered out.
+After the beat down I received from the daily programming challenge, today's challenge was much easier to work out. Given an array of numbers return an array of the prime numbers that are factors. To do this I calculated all the prime numbers less that the max number given. These prime numbers are tested as factors of given numbers. The array of prime factors has duplicates so they need to be filtered out.
 
 **Link to work:**
 
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/208036361a5d26dbaaa0f8c85e92dcdba7d40765)
 -   [Get Prime Factors Gist](https://gist.github.com/devNoiseConsulting/9673c69d788555e97410ec237d4bd43e)
+
+### Day 82, Sep 7, 2017
+
+**Today's Progress:** Minor tweak on the Voting app and daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** Daily programming challenge was to group words that are anagrams of one another. Other people using other languages were able to get to one liner. I couldn't do that with Javascript. I have to make three passes over the data. Once to figure out what the keys are. A second pass to group word based off of their key. Finally the third pass converts the storage object into the required array. I could cut out one of the passes, but then I need to add an if/else statement.
+
+**Link to work:**
+
+-   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/)
+-   [Group Anagrams Gist](https://gist.github.com/devNoiseConsulting/ce680b2a70e3d74aae750bf54b52dd59)
+
+
+### Day XX, Sep 8, 2017 0 Nov 29, 2017
+
+**Today's Progress:** Daily programming challenge from the PhillyDev Slack.
+
+**Thoughts:** I enjoyed doing the daily challenges. Not all of them took me an hour, but I worked on them every weekday that one was posted to the PhillyDev Slack.
+
+**Link to work:**
+
+-   [Group Anagrams Gist - 20170908](https://gist.github.com/devNoiseConsulting/ce680b2a70e3d74aae750bf54b52dd59)
+-   [Is Strong Word Gist - 20170911](https://gist.github.com/devNoiseConsulting/69d3b56918c8c006fcc4b884f41693e7)
+-   [Letter Triangle Gist - 20170912](https://gist.github.com/devNoiseConsulting/79d913b42eecfd45277c52a8647f0538)
+-   [Letter Triangle II Gist - 20170913](https://gist.github.com/devNoiseConsulting/dab34594e4f9a4c16f6c5043ea55cfd7)
+-   [Letter Diamond Gist - 20170914](https://gist.github.com/devNoiseConsulting/cda7184d56877f3c9918c508896555f8)
+-   [Letter Rainbow Gist - 20170915](https://gist.github.com/devNoiseConsulting/06a52499e9876932e1d98ff173e20edf)
+-   [Get Value in Binary Gist - 20170918](https://gist.github.com/devNoiseConsulting/b476c169e9d8744ab6fb7a88da77b5f5)
+-   [Get Value in Binary With Longest Streak Gist - 20170919](https://gist.github.com/devNoiseConsulting/c664c72f40805fd145317fade8655b6a)
+-   [Get Value in Binary With Longest Streak and Locations Gist - 20170920](https://gist.github.com/devNoiseConsulting/910af4754a6453545f556600192004f4)
+-   [Is Array Signifigant Gist - 20170921](https://gist.github.com/devNoiseConsulting/b15b228a175fe9c227313dc950361b3c)
+-   [Human Readable Time Format Gist - 20170922](https://gist.github.com/devNoiseConsulting/c3df5240df22778fe9206a69947313b2)
+-   [Remove One Space At A Time Gist - 20170925](https://gist.github.com/devNoiseConsulting/1f695096ecccb1ae59faf162ef0ff14b)
+-   [Is Symmetrical Gist - 20170926](https://gist.github.com/devNoiseConsulting/d794ac4e6632d4377e1d352d410fc8e1)
+-   [Divide String Gist - 20170927](https://gist.github.com/devNoiseConsulting/876dee9a0f56203332cc94a23407f8b8)
+-   [Create Skyline Gist - 20170928](https://gist.github.com/devNoiseConsulting/9f30269cf197393674eab6d5c3eaadd3)
+-   [Get Zero Based Index Gist - 20170929](https://gist.github.com/devNoiseConsulting/08a191138830958553ab47e72b3e75ef)
+-   [Rechunk Gist - 20171002](https://gist.github.com/devNoiseConsulting/c281a1a0a3e0db9a3cacbd46282cbe1a)
+-   [Zip Sum Gist - 20171003](https://gist.github.com/devNoiseConsulting/db0dddd601d6596530bf754d401b1aac)
+-   [Circular Shift Gist - 20171004](https://gist.github.com/devNoiseConsulting/48ed03970eb760e344318f80a4dc7f36)
+-   [AcDc Sort Gist - 20171005](https://gist.github.com/devNoiseConsulting/cc90f76824612e0efb6fcd36cd798ce8)
+-   [Adjust Each Item Gist - 20171006](https://gist.github.com/devNoiseConsulting/06a1bc92e7f8bc5dcb761feb6cece1c5)
+-   [Collapse Input String Gist - 20171010](https://gist.github.com/devNoiseConsulting/10747697144e580723d39ac3a03983cc)
+-   [Subtract Sort Gist - 20171011](https://gist.github.com/devNoiseConsulting/8688a647650e9b169b94f32a04083c3d)
+-   [Drop Sort Gist - 20171012](https://gist.github.com/devNoiseConsulting/25fe3862e9d47c3422cefcf32b818da4)
+-   [Rotation Sort Gist - 20171013](https://gist.github.com/devNoiseConsulting/8ecd62781fbd723513b5d48daeeef1e6)
+-   [Sevens Gist - 20171016](https://gist.github.com/devNoiseConsulting/a1dc498aa52954919968e4a24977dc78)
+-   [Find All Other Products Gist - 20171017](https://gist.github.com/devNoiseConsulting/7132da6a61d5937e04a5e90ac1aa1eba)
+-   [Space By Letter Gist - 20171018](https://gist.github.com/devNoiseConsulting/efcb0e7dc45e018c343d16d946edc5b6)
+-   [Convert Zig Zag Gist - 20171019](https://gist.github.com/devNoiseConsulting/f1b9385fe819360ec9c0fce674a9f9dc)
+-   [Return Indexes Gist - 20171020](https://gist.github.com/devNoiseConsulting/81e036bc1aa6329231795f71b3a32183)
+-   [Reverse Words Gist - 20171023](https://gist.github.com/devNoiseConsulting/9c54335bf216947f74e1ec5a1e473816)
+-   [Remove Value From Array Gist - 20171024](https://gist.github.com/devNoiseConsulting/4df01c10ee7f5d6e01fddbe8891fcc5e)
+-   [Find Sets Of Three Gist - 20171025](https://gist.github.com/devNoiseConsulting/b45e6cd26db1acb29c66165f0d36ea7f)
+-   [Find Sets Of Four Gist - 20171026](https://gist.github.com/devNoiseConsulting/1cddd36e727d6e93a9402ea6047ba1cc)
+-   [Has String Symmetry Gist - 20171027](https://gist.github.com/devNoiseConsulting/7d48961cbebb45677ad40b12e52f38df)
+-   [Pancake Sort Gist - 20171030](https://gist.github.com/devNoiseConsulting/5656466e2afb774f83fafb0754659d1e)
+-   [Left Hand Diff Gist - 20171031](https://gist.github.com/devNoiseConsulting/b974fcf240f01eb0e3ba16543ef5731a)
+-   [Output Array Gist - 20171101](https://gist.github.com/devNoiseConsulting/d6f7d948af1507b9b6419794ad7d7215)
+-   [Return Overlap Gist - 20171102](https://gist.github.com/devNoiseConsulting/73a68dc7bb5c112d5f8e0dd58fff1e4b)
+-   [Return Overlap II Gist - 20171103](https://gist.github.com/devNoiseConsulting/c9dab99633370757fb2c1eec7f0e0053)
+-   [Transpose Text From Standard Input II Gist - 20171106](https://gist.github.com/devNoiseConsulting/9f57d944f68556bae7cbc08b128accbd)
+-   [iOS Sum Bug Gist - 20171108](https://gist.github.com/devNoiseConsulting/81a00eec99e5363f06b711c32223f01b)
+-   [Reverse Words In Place Gist - 20171110](https://gist.github.com/devNoiseConsulting/34d8c439282c031426728ed955a3d193)
+-   [Base Notation Gist - 20171113](https://gist.github.com/devNoiseConsulting/83ab7d415f5c47f62ce1168649a4999a)
+-   [Hereditary Base Notation Gist - 20171114](https://gist.github.com/devNoiseConsulting/c59d4c453308d5e508cb369a869f7832)
+-   [Goodstein's Theorem Gist - 20171115](https://gist.github.com/devNoiseConsulting/878b60e2ae3a11d42629f01d6b20932a)
+-   [Anagram Maker Gist - 20171127](https://gist.github.com/devNoiseConsulting/d91e09ff2c693a68c31107fde7fba4e4)
+-   [Reliably Terrible Sort Gist - 20171128](https://gist.github.com/devNoiseConsulting/54b81dd6cc40d18c895f112ad10444a7)
+-   [More Reliably Terrible Sort Gist - 20171129](https://gist.github.com/devNoiseConsulting/4e25b033b8054a8b5399ac68133ce80f)
+
 
 <!--
 
