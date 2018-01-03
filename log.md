@@ -1202,7 +1202,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Memory Reallocation Gist - 20171206](https://gist.github.com/devNoiseConsulting/b09e14dd6023ea88a447412a3fad6c00)
+-   [Memory Reallocation Gist - 20171206](https://gist.github.com/devNoiseConsulting/e5e8574ed0570b3046fa24ed45fc3da8)
 
 ### Day 90, Dec 7, 2017
 
@@ -1212,7 +1212,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Recursive Circus Gist - 20171207](https://gist.github.com/devNoiseConsulting/d39b64f064f657b52f1c15f6b3984850)
+-   [Recursive Circus Gist - 20171207](https://gist.github.com/devNoiseConsulting/63f77993ce82c2808bfb8c15fe817cba)
 
 ### Day 91, Dec 8, 2017
 
@@ -1222,7 +1222,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [I Heard You Like Registers Gist - 20171208](https://gist.github.com/devNoiseConsulting/c375d174aa38e1f08f457810069923d4)
+-   [I Heard You Like Registers Gist - 20171208](https://gist.github.com/devNoiseConsulting/c95946c55efce4b88d7a3b557ba25ad1)
 
 ### Day 92, Dec 9, 2017
 
@@ -1232,7 +1232,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Stream Processing Gist - 20171209](https://gist.github.com/devNoiseConsulting/06fd0c7b75446e1c365330b1ddbc21dc)
+-   [Stream Processing Gist - 20171209](https://gist.github.com/devNoiseConsulting/c79106a60dc39dfb5338878f278dbe3c)
 
 ### Day 93, Dec 10, 2017
 
@@ -1242,7 +1242,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Knot Hash Gist - 20171210](https://gist.github.com/devNoiseConsulting/b30f3cd15e077df4e7540092ab6b0c49)
+-   [Knot Hash Gist - 20171210](https://gist.github.com/devNoiseConsulting/ae9f6efbce41ab073698497ad30e0aa9)
 
 ### Day 94, Dec 11, 2017
 
@@ -1252,7 +1252,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Hex Ed Gist - 20171211](https://gist.github.com/devNoiseConsulting/ae9f6efbce41ab073698497ad30e0aa9)
+-   [Hex Ed Gist - 20171211](https://gist.github.com/devNoiseConsulting/b30f3cd15e077df4e7540092ab6b0c49)
 
 ### Day 95, Dec 12, 2017
 
@@ -1262,7 +1262,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Digital Plumber Gist - 20171212](https://gist.github.com/devNoiseConsulting/c79106a60dc39dfb5338878f278dbe3c)
+-   [Digital Plumber Gist - 20171212](https://gist.github.com/devNoiseConsulting/06fd0c7b75446e1c365330b1ddbc21dc)
 
 ### Day 96, Dec 13, 2017
 
@@ -1272,7 +1272,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Packet Scanners Gist - 20171213](https://gist.github.com/devNoiseConsulting/c95946c55efce4b88d7a3b557ba25ad1)
+-   [Packet Scanners Gist - 20171213](https://gist.github.com/devNoiseConsulting/c375d174aa38e1f08f457810069923d4)
 
 ### Day 97, Dec 14, 2017
 
@@ -1282,7 +1282,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Disk Defragmentation Gist - 20171214](https://gist.github.com/devNoiseConsulting/63f77993ce82c2808bfb8c15fe817cba)
+-   [Disk Defragmentation Gist - 20171214](https://gist.github.com/devNoiseConsulting/d39b64f064f657b52f1c15f6b3984850)
 
 ### Day 98, Dec 15, 2017
 
@@ -1292,7 +1292,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Dueling Generators Gist - 20171215](https://gist.github.com/devNoiseConsulting/e5e8574ed0570b3046fa24ed45fc3da8)
+-   [Dueling Generators Gist - 20171215](https://gist.github.com/devNoiseConsulting/b09e14dd6023ea88a447412a3fad6c00)
 
 ### Day 99, Dec 17, 2017
 
@@ -1302,8 +1302,8 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Permutation Promenade Gist - 20171216](https://gist.github.com/devNoiseConsulting/6347863fd7757b9330a68fb81d53cb05)
--   [Spinlock Gist - 20171217](https://gist.github.com/devNoiseConsulting/f938990c45c176eb3fae98d72353874d)
+-   [Permutation Promenade Gist - 20171216](https://gist.github.com/devNoiseConsulting/fdb25c3aa1e73c4373b0984b83ae5fe8)
+-   [Spinlock Gist - 20171217](https://gist.github.com/devNoiseConsulting/08fe8e49a6ea8b63a1f1868a96880a7c)
 
 ### Day 100, Dec 18, 2017
 
@@ -1313,7 +1313,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Duet Gist - 20171218](https://gist.github.com/devNoiseConsulting/400e986dc8e1e02e50c2a1745458e00c)
+-   [Duet Gist - 20171218](https://gist.github.com/devNoiseConsulting/1e8938c03ef40c221a1df4a9f8dfe43d)
 
 ### Day 101, Dec 19, 2017
 
@@ -1323,7 +1323,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [A Series of Tubes Gist - 20171219](https://gist.github.com/devNoiseConsulting/ff0d0f6857ebfc4645fe995945a92325)
+-   [A Series of Tubes Gist - 20171219](https://gist.github.com/devNoiseConsulting/4c522604f8ec6b7f8b2cfaffade2c7ae)
 
 ### Day 102, Dec 20, 2017
 
@@ -1333,7 +1333,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Particle Swarm Gist - 20171220](https://gist.github.com/devNoiseConsulting/8d4c74d8beed559638a2924d170d4847)
+-   [Particle Swarm Gist - 20171220](https://gist.github.com/devNoiseConsulting/7e9a671787d9035a588b182b3fb05620)
 
 ### Day 103, Dec 21, 2017
 
@@ -1343,7 +1343,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Fractal Art Gist - 20171221](https://gist.github.com/devNoiseConsulting/7e9a671787d9035a588b182b3fb05620)
+-   [Fractal Art Gist - 20171221](https://gist.github.com/devNoiseConsulting/8d4c74d8beed559638a2924d170d4847)
 
 ### Day 104, Dec 22, 2017
 
@@ -1353,7 +1353,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Sporifica Virus Gist - 20171222](https://gist.github.com/devNoiseConsulting/4c522604f8ec6b7f8b2cfaffade2c7ae)
+-   [Sporifica Virus Gist - 20171222](https://gist.github.com/devNoiseConsulting/ff0d0f6857ebfc4645fe995945a92325)
 
 ### Day 105, Dec 23, 2017
 
@@ -1363,7 +1363,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Coprocessor Conflagration Gist - 20171223](https://gist.github.com/devNoiseConsulting/1e8938c03ef40c221a1df4a9f8dfe43d)
+-   [Coprocessor Conflagration Gist - 20171223](https://gist.github.com/devNoiseConsulting/400e986dc8e1e02e50c2a1745458e00c)
 
 ### Day 106, Dec 24, 2017
 
@@ -1373,7 +1373,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [Electromagnetic Moat Gist - 20171224](https://gist.github.com/devNoiseConsulting/08fe8e49a6ea8b63a1f1868a96880a7c)
+-   [Electromagnetic Moat Gist - 20171224](https://gist.github.com/devNoiseConsulting/f938990c45c176eb3fae98d72353874d)
 
 ### Day 107, Dec 25, 2017
 
@@ -1383,7 +1383,7 @@ After the beat down I received from the daily programming challenge, today's cha
 
 **Link to work:**
 
--   [The Halting Problem Gist - 20171225](https://gist.github.com/devNoiseConsulting/fdb25c3aa1e73c4373b0984b83ae5fe8)
+-   [The Halting Problem Gist - 20171225](https://gist.github.com/devNoiseConsulting/6347863fd7757b9330a68fb81d53cb05)
 
 <!--
 
