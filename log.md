@@ -1087,7 +1087,6 @@ After the beat down I received from the daily programming challenge, today's cha
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/)
 -   [Group Anagrams Gist](https://gist.github.com/devNoiseConsulting/ce680b2a70e3d74aae750bf54b52dd59)
 
-
 ### Day XX, Sep 8, 2017 0 Nov 29, 2017
 
 **Today's Progress:** Daily programming challenge from the PhillyDev Slack.
@@ -1145,6 +1144,246 @@ After the beat down I received from the daily programming challenge, today's cha
 -   [Reliably Terrible Sort Gist - 20171128](https://gist.github.com/devNoiseConsulting/54b81dd6cc40d18c895f112ad10444a7)
 -   [More Reliably Terrible Sort Gist - 20171129](https://gist.github.com/devNoiseConsulting/4e25b033b8054a8b5399ac68133ce80f)
 
+### Day 84, Dec 1, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Inverse Captcha".
+
+**Link to work:**
+
+-   [Inverse Captcha Gist - 20171201](https://gist.github.com/devNoiseConsulting/c023fbb35e0b0e506e05369ca40441cb)
+
+### Day 85, Dec 2, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Corruption Checksum".
+
+**Link to work:**
+
+-   [Corruption Checksum Gist - 20171202](https://gist.github.com/devNoiseConsulting/8af0d80a91d67451b5ff54154ee3f591)
+
+### Day 86, Dec 3, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Spiral Memory".
+
+**Link to work:**
+
+-   [Spiral Memory Gist - 20171203](https://gist.github.com/devNoiseConsulting/8438c8ddae49950a58fe4f924aaf5823)
+
+### Day 87, Dec 4, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "High-Entropy Passphrases".
+
+**Link to work:**
+
+-   [High-Entropy Passphrases Gist - 20171204](https://gist.github.com/devNoiseConsulting/425d9cadd540659066d9fc02e8d6f5cf)
+
+### Day 88, Dec 5, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "A Maze of Twisty Trampolines, All Alike".
+
+**Link to work:**
+
+-   [A Maze of Twisty Trampolines, All Alike Gist - 20171205](https://gist.github.com/devNoiseConsulting/81300d21a87c19073dfcc0db4948cdcf)
+
+### Day 89, Dec 6, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Memory Reallocation".
+
+**Link to work:**
+
+-   [Memory Reallocation Gist - 20171206](https://gist.github.com/devNoiseConsulting/b09e14dd6023ea88a447412a3fad6c00)
+
+### Day 90, Dec 7, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Recursive Circus".
+
+**Link to work:**
+
+-   [Recursive Circus Gist - 20171207](https://gist.github.com/devNoiseConsulting/d39b64f064f657b52f1c15f6b3984850)
+
+### Day 91, Dec 8, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "I Heard You Like Registers".
+
+**Link to work:**
+
+-   [I Heard You Like Registers Gist - 20171208](https://gist.github.com/devNoiseConsulting/c375d174aa38e1f08f457810069923d4)
+
+### Day 92, Dec 9, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Stream Processing".
+
+**Link to work:**
+
+-   [Stream Processing Gist - 20171209](https://gist.github.com/devNoiseConsulting/06fd0c7b75446e1c365330b1ddbc21dc)
+
+### Day 93, Dec 10, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Knot Hash".
+
+**Link to work:**
+
+-   [Knot Hash Gist - 20171210](https://gist.github.com/devNoiseConsulting/b30f3cd15e077df4e7540092ab6b0c49)
+
+### Day 94, Dec 11, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Hex Ed".
+
+**Link to work:**
+
+-   [Hex Ed Gist - 20171211](https://gist.github.com/devNoiseConsulting/ae9f6efbce41ab073698497ad30e0aa9)
+
+### Day 95, Dec 12, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Digital Plumber".
+
+**Link to work:**
+
+-   [Digital Plumber Gist - 20171212](https://gist.github.com/devNoiseConsulting/c79106a60dc39dfb5338878f278dbe3c)
+
+### Day 96, Dec 13, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Packet Scanners". 2nd part was hard and needed some hints from reddit.
+
+**Link to work:**
+
+-   [Packet Scanners Gist - 20171213](https://gist.github.com/devNoiseConsulting/c95946c55efce4b88d7a3b557ba25ad1)
+
+### Day 97, Dec 14, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Disk Defragmentation" zero padding always screws me up.
+
+**Link to work:**
+
+-   [Disk Defragmentation Gist - 20171214](https://gist.github.com/devNoiseConsulting/63f77993ce82c2808bfb8c15fe817cba)
+
+### Day 98, Dec 15, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Dueling Generators".
+
+**Link to work:**
+
+-   [Dueling Generators Gist - 20171215](https://gist.github.com/devNoiseConsulting/e5e8574ed0570b3046fa24ed45fc3da8)
+
+### Day 99, Dec 17, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Permutation Promenade" and "Spinlock". Making up for day 16 on the Advent of Code. For "Spinlock", I peaked at solutions for part 2
+
+**Link to work:**
+
+-   [Permutation Promenade Gist - 20171216](https://gist.github.com/devNoiseConsulting/6347863fd7757b9330a68fb81d53cb05)
+-   [Spinlock Gist - 20171217](https://gist.github.com/devNoiseConsulting/f938990c45c176eb3fae98d72353874d)
+
+### Day 100, Dec 18, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Duet".
+
+**Link to work:**
+
+-   [Duet Gist - 20171218](https://gist.github.com/devNoiseConsulting/400e986dc8e1e02e50c2a1745458e00c)
+
+### Day 101, Dec 19, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:**  Completed "A Series of Tubes". Much easier than yesterdays task.
+
+**Link to work:**
+
+-   [A Series of Tubes Gist - 20171219](https://gist.github.com/devNoiseConsulting/ff0d0f6857ebfc4645fe995945a92325)
+
+### Day 102, Dec 20, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Particle Swarm".
+
+**Link to work:**
+
+-   [Particle Swarm Gist - 20171220](https://gist.github.com/devNoiseConsulting/8d4c74d8beed559638a2924d170d4847)
+
+### Day 103, Dec 21, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Fractal Art". Took a while to break down the problem then screwed up the square merging
+
+**Link to work:**
+
+-   [Fractal Art Gist - 20171221](https://gist.github.com/devNoiseConsulting/7e9a671787d9035a588b182b3fb05620)
+
+### Day 104, Dec 22, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Sporifica Virus".
+
+**Link to work:**
+
+-   [Sporifica Virus Gist - 20171222](https://gist.github.com/devNoiseConsulting/4c522604f8ec6b7f8b2cfaffade2c7ae)
+
+### Day 105, Dec 23, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Coprocessor Conflagration".
+
+**Link to work:**
+
+-   [Coprocessor Conflagration Gist - 20171223](https://gist.github.com/devNoiseConsulting/1e8938c03ef40c221a1df4a9f8dfe43d)
+
+### Day 106, Dec 24, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "Electromagnetic Moat".
+
+**Link to work:**
+
+-   [Electromagnetic Moat Gist - 20171224](https://gist.github.com/devNoiseConsulting/08fe8e49a6ea8b63a1f1868a96880a7c)
+
+### Day 107, Dec 25, 2017
+
+**Today's Progress:** Worked on Advent of Code 2017
+
+**Thoughts:** Completed "The Halting Problem".
+
+**Link to work:**
+
+-   [The Halting Problem Gist - 20171225](https://gist.github.com/devNoiseConsulting/fdb25c3aa1e73c4373b0984b83ae5fe8)
 
 <!--
 
